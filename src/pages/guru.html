@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guru & Staff - Angkatan 20</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/src/components/style.css">
+    <script type="module" src="/src/components/main.js"></script>
+</head>
+
+<body class="font-sans antialiased bg-white text-black selection:bg-gray-200">
+
+    <!-- Modern Floating Navbar (Initially Hidden) -->
+    <nav id="landing-navbar"
+        class="fixed top-6 left-1/2 transform -translate-x-1/2 z-50 transition-all duration-500 -translate-y-[200%] opacity-0">
+        <div
+            class="bg-white/90 backdrop-blur-md shadow-lg rounded-full px-6 py-3 flex items-center gap-8 border border-white/20 relative z-50">
+            <a href="/" data-navigo class="flex items-center">
+                <img src="/src/assets/logo.webp" alt="ANTIRTA" class="h-10 w-auto" />
+            </a>
+
+            <!-- Desktop Links -->
+            <div class="hidden md:flex items-center gap-6 text-sm font-medium text-gray-600">
+                <a href="/kelas" data-navigo class="hover:text-black transition-colors">Kelas</a>
+                <a href="/taruna" data-navigo class="hover:text-black transition-colors">Taruna</a>
+                <a href="/panitia" data-navigo class="hover:text-black transition-colors">Panitia</a>
+                <a href="/guru" data-navigo class="hover:text-black transition-colors">Guru</a>
+                <a href="/yearbook" data-navigo
+                    class="bg-gradient-to-r from-primary to-blue-600 text-white px-4 py-1.5 rounded-full hover:shadow-[0_0_20px_rgba(59,130,246,0.5)] transition-all border border-white/10">Yearbook</a>
+            </div>
+
+            <!-- Mobile Menu Button (Simple) -->
+            <button id="landing-menu-btn" class="md:hidden text-gray-800 focus:outline-none">
+                <svg class="w-6 h-6 transition-transform duration-300" fill="none" stroke="currentColor"
+                    viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16">
+                    </path>
+                </svg>
+            </button>
+        </div>
+
+        <!-- Mobile Menu Dropdown (Clean & Animated) -->
+        <div id="landing-mobile-menu"
+            class="absolute top-full mt-2 left-0 w-full min-w-[200px] bg-white rounded-2xl shadow-xl overflow-hidden transform origin-top transition-all duration-300 ease-out opacity-0 scale-95 pointer-events-none -translate-y-2">
+            <div class="flex flex-col p-2">
+                <a href="/kelas" data-navigo
+                    class="px-4 py-3 hover:bg-gray-50 rounded-xl text-sm font-medium transition-colors">Moment
+                    Kelas</a>
+                <a href="/taruna" data-navigo
+                    class="px-4 py-3 hover:bg-gray-50 rounded-xl text-sm font-medium transition-colors">Moment
+                    Taruna</a>
+                <a href="/panitia" data-navigo
+                    class="px-4 py-3 hover:bg-gray-50 rounded-xl text-sm font-medium transition-colors">Panitia</a>
+                <a href="/guru" data-navigo
+                    class="px-4 py-3 hover:bg-gray-50 rounded-xl text-sm font-medium transition-colors">Guru</a>
+                <a href="/yearbook" data-navigo
+                    class="px-4 py-3 hover:bg-gray-50 rounded-xl text-sm font-medium text-primary font-semibold transition-colors">Yearbook</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header & Search Section -->
+    <header class="relative pt-40 pb-20 px-4 bg-black text-white overflow-hidden">
+        <!-- Background Effects -->
+        <div class="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/stardust.png')] opacity-20">
+        </div>
+        <div class="absolute top-0 right-0 w-96 h-96 bg-primary/20 rounded-full blur-[100px] pointer-events-none">
+        </div>
+        <div class="absolute bottom-0 left-0 w-96 h-96 bg-secondary/20 rounded-full blur-[100px] pointer-events-none">
+        </div>
+
+        <div class="max-w-4xl mx-auto text-center relative z-10">
+            <p class="text-sm font-bold tracking-[0.2em] text-primary uppercase mb-4 animate-fade-in-up">Education
+            </p>
+            <h1
+                class="text-4xl md:text-6xl font-bold tracking-tighter mb-6 bg-clip-text text-transparent bg-gradient-to-b from-white to-gray-400 animate-fade-in-up">
+                Guru dan Staff
+            </h1>
+            <p class="text-lg text-gray-400 mb-10 font-light max-w-2xl mx-auto leading-relaxed animate-fade-in-up">
+                Mereka yang berdedikasi untuk membentuk generasi masa depan dengan ilmu dan pengalaman.
+            </p>
+
+            <!-- Search Bar -->
+            <div class="relative max-w-lg mx-auto group animate-fade-in-up">
+                <div
+                    class="relative bg-white/10 backdrop-blur-xl border border-white/20 rounded-full flex items-center p-2 shadow-2xl hover:bg-white/15 transition-all">
+                    <svg class="w-6 h-6 text-gray-400 ml-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                    </svg>
+                    <input type="text" id="guru-search" placeholder="Cari nama atau departemen..."
+                        class="w-full bg-transparent border-none focus:ring-0 text-white placeholder-gray-400 px-4 py-2 font-medium outline-none h-10" />
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Content Section -->
+    <section class="min-h-screen bg-white py-20 px-4 sm:px-6 lg:px-8 -mt-8 rounded-t-[40px] relative z-20">
+        <div class="max-w-7xl mx-auto">
+            <!-- Dynamic Hierarchical Container -->
+            <div id="guru-container">
+                <!-- Javascript will populate this with hierarchical grid layout -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-50 border-t border-gray-200 py-16">
+        <div class="max-w-7xl mx-auto px-4 flex flex-col items-center justify-center text-center">
+            <h2 class="text-3xl font-bold tracking-tighter mb-6 font-sans">ANTIRTA</h2>
+            <div class="flex gap-8 text-gray-500 text-sm font-medium mb-8">
+                <a href="#" class="hover:text-black transition-colors">Instagram</a>
+                <a href="#" class="hover:text-black transition-colors">YouTube</a>
+                <a href="#" class="hover:text-black transition-colors">Contact</a>
+            </div>
+            <p class="text-gray-400 text-xs">© 2024 Panitia Angkatan 20. Crafted with passion.</p>
+        </div>
+    </footer>
+</body>
+
+</html>

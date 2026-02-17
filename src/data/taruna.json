@@ -1,0 +1,130 @@
+[
+    {
+        "id": "2024_1",
+        "yearLabel": "2024 (Semester 1)",
+        "highlights": [
+            {
+                "title": "Pelantikan Taruna",
+                "image": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?q=80&w=2070&auto=format&fit=crop"
+            },
+            {
+                "title": "Latihan Fisik",
+                "image": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?q=80&w=2070&auto=format&fit=crop"
+            },
+            {
+                "title": "Malam Keakraban",
+                "image": "https://images.unsplash.com/photo-1523580494863-6f3031224c94?q=80&w=2070&auto=format&fit=crop"
+            }
+        ],
+        "kompi": [
+            {
+                "name": "Kompi A",
+                "description": "The Initiators",
+                "image": "https://images.unsplash.com/photo-1532009877282-33fa0773ea5a?q=80&w=2074&auto=format&fit=crop"
+            },
+            {
+                "name": "Kompi B",
+                "description": "The Builders",
+                "image": "https://images.unsplash.com/photo-1526634332515-d56d31bb9d2d?q=80&w=2070&auto=format&fit=crop"
+            },
+            {
+                "name": "Kompi C",
+                "description": "The Guardians",
+                "image": "https://images.unsplash.com/photo-1577896851231-70ef18881754?q=80&w=2070&auto=format&fit=crop"
+            },
+            {
+                "name": "Kompi D",
+                "description": "The Strategists",
+                "image": "https://images.unsplash.com/photo-1509062522246-3755977927d7?q=80&w=2070&auto=format&fit=crop"
+            },
+            {
+                "name": "Kompi E",
+                "description": "The Executers",
+                "image": "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?q=80&w=2070&auto=format&fit=crop"
+            }
+        ]
+    },
+    {
+        "id": "2024_2",
+        "yearLabel": "2024 (Semester 2)",
+        "highlights": [
+            {
+                "title": "Latihan Gabungan",
+                "image": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?q=80&w=2070&auto=format&fit=crop"
+            },
+            {
+                "title": "Bakti Sosial",
+                "image": "https://images.unsplash.com/photo-1427504746074-ce47bdb5a268?q=80&w=2070&auto=format&fit=crop"
+            },
+            {
+                "title": "Penutupan",
+                "image": "https://images.unsplash.com/photo-1523580494863-6f3031224c94?q=80&w=2070&auto=format&fit=crop"
+            }
+        ],
+        "kompi": [
+            {
+                "name": "Kompi A",
+                "description": "Resilient",
+                "image": "https://images.unsplash.com/photo-1532009877282-33fa0773ea5a?q=80&w=2074&auto=format&fit=crop"
+            },
+            {
+                "name": "Kompi B",
+                "description": "Adaptive",
+                "image": "https://images.unsplash.com/photo-1526634332515-d56d31bb9d2d?q=80&w=2070&auto=format&fit=crop"
+            },
+            {
+                "name": "Kompi C",
+                "description": "Strong",
+                "image": "https://images.unsplash.com/photo-1577896851231-70ef18881754?q=80&w=2070&auto=format&fit=crop"
+            },
+            {
+                "name": "Kompi D",
+                "description": "Smart",
+                "image": "https://images.unsplash.com/photo-1509062522246-3755977927d7?q=80&w=2070&auto=format&fit=crop"
+            },
+            {
+                "name": "Kompi E",
+                "description": "Swift",
+                "image": "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?q=80&w=2070&auto=format&fit=crop"
+            }
+        ]
+    },
+    {
+        "id": "2025",
+        "yearLabel": "2025",
+        "highlights": [
+            {
+                "title": "Coming Soon",
+                "image": ""
+            },
+            {
+                "title": "Coming Soon",
+                "image": ""
+            },
+            {
+                "title": "Coming Soon",
+                "image": ""
+            }
+        ],
+        "kompi": []
+    },
+    {
+        "id": "2026",
+        "yearLabel": "2026",
+        "highlights": [
+            {
+                "title": "Coming Soon",
+                "image": ""
+            },
+            {
+                "title": "Coming Soon",
+                "image": ""
+            },
+            {
+                "title": "Coming Soon",
+                "image": ""
+            }
+        ],
+        "kompi": []
+    }
+]

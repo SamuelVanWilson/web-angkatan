@@ -1,0 +1,128 @@
+[
+    {
+        "name": "Drs. Budi Santoso, M.Pd",
+        "role": "Kepala Sekolah",
+        "hierarchy": "kepala_sekolah",
+        "department": "-",
+        "phone": "081234567890"
+    },
+    {
+        "name": "Dr. Siti Rahayu, M.Pd",
+        "role": "Wakil Kepala Kesiswaan",
+        "hierarchy": "wakil",
+        "department": "Kesiswaan",
+        "phone": "081234567891"
+    },
+    {
+        "name": "Ir. Ahmad Fauzi, M.T",
+        "role": "Kepala Konsentrasi Teknik Komputer & Jaringan",
+        "hierarchy": "kepala_konsentrasi",
+        "department": "TKJ",
+        "phone": "081234567892"
+    },
+    {
+        "name": "S.Kom. Dewi Lestari, M.Kom",
+        "role": "Kepala Konsentrasi Rekayasa Perangkat Lunak",
+        "hierarchy": "kepala_konsentrasi",
+        "department": "RPL",
+        "phone": "081234567893"
+    },
+    {
+        "name": "S.Pd. Rina Wulandari",
+        "role": "Guru Matematika",
+        "hierarchy": "guru",
+        "department": "Matematika",
+        "phone": "081234567894"
+    },
+    {
+        "name": "S.Pd. Muhammad Rizki",
+        "role": "Guru Bahasa Indonesia",
+        "hierarchy": "guru",
+        "department": "Bahasa Indonesia",
+        "phone": "081234567895"
+    },
+    {
+        "name": "S.Pd. Diana Putri",
+        "role": "Guru Bahasa Inggris",
+        "hierarchy": "guru",
+        "department": "Bahasa Inggris",
+        "phone": "081234567896"
+    },
+    {
+        "name": "S.Kom. Andi Pratama",
+        "role": "Guru Pemrograman Web",
+        "hierarchy": "guru",
+        "department": "RPL",
+        "phone": "081234567897"
+    },
+    {
+        "name": "S.T. Bambang Hermawan",
+        "role": "Guru Jaringan Komputer",
+        "hierarchy": "guru",
+        "department": "TKJ",
+        "phone": "081234567898"
+    },
+    {
+        "name": "S.Kom. Fitri Handayani",
+        "role": "Guru Basis Data",
+        "hierarchy": "guru",
+        "department": "RPL",
+        "phone": "081234567899"
+    },
+    {
+        "name": "S.Pd. Hendra Gunawan",
+        "role": "Guru Fisika",
+        "hierarchy": "guru",
+        "department": "Fisika",
+        "phone": "081234567800"
+    },
+    {
+        "name": "S.Pd. Laila Sari",
+        "role": "Guru Kimia",
+        "hierarchy": "guru",
+        "department": "Kimia",
+        "phone": "081234567801"
+    },
+    {
+        "name": "S.Pd. Teguh Wijaya",
+        "role": "Guru Pendidikan Jasmani",
+        "hierarchy": "guru",
+        "department": "Penjasorkes",
+        "phone": "081234567802"
+    },
+    {
+        "name": "S.Ag. Nurul Hidayah",
+        "role": "Guru Pendidikan Agama Islam",
+        "hierarchy": "guru",
+        "department": "Agama",
+        "phone": "081234567803"
+    },
+    {
+        "name": "Yuni Astuti, S.E",
+        "role": "Kepala Tata Usaha",
+        "hierarchy": "tata_usaha",
+        "department": "Administrasi",
+        "phone": "081234567804"
+    },
+    {
+        "name": "Dian Permata",
+        "role": "Staff Tata Usaha",
+        "hierarchy": "tata_usaha",
+        "department": "Administrasi",
+        "phone": "081234567805"
+    },
+    {
+        "name": "Rudi Hartono",
+        "role": "Staff Tata Usaha",
+        "hierarchy": "tata_usaha",
+        "department": "Keuangan",
+        "phone": "081234567806"
+    },
+    {
+        "name": "Indah Lestari",
+        "role": "Staff Perpustakaan",
+        "hierarchy": "tata_usaha",
+        "department": "Perpustakaan",
+        "phone": "081234567807"
+    }
+]

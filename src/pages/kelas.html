@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Moment Kelas - Angkatan 20</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/src/components/style.css">
+    <script type="module" src="/src/components/main.js"></script>
+</head>
+
+<body class="font-sans antialiased bg-white text-black selection:bg-gray-200">
+
+    <!-- Modern Floating Navbar (Initially Hidden) -->
+    <nav id="landing-navbar"
+        class="fixed top-6 left-1/2 transform -translate-x-1/2 z-50 transition-all duration-500 -translate-y-[200%] opacity-0">
+        <div
+            class="bg-white/90 backdrop-blur-md shadow-lg rounded-full px-6 py-3 flex items-center gap-8 border border-white/20 relative z-50">
+            <a href="/" data-navigo class="flex items-center">
+                <img src="/src/assets/logo.webp" alt="ANTIRTA" class="h-10 w-auto" />
+            </a>
+
+            <!-- Desktop Links -->
+            <div class="hidden md:flex items-center gap-6 text-sm font-medium text-gray-600">
+                <a href="/kelas" data-navigo class="hover:text-black transition-colors">Kelas</a>
+                <a href="/taruna" data-navigo class="hover:text-black transition-colors">Taruna</a>
+                <a href="/panitia" data-navigo class="hover:text-black transition-colors">Panitia</a>
+                <a href="/guru" data-navigo class="hover:text-black transition-colors">Guru</a>
+                <a href="/yearbook" data-navigo
+                    class="bg-gradient-to-r from-primary to-blue-600 text-white px-4 py-1.5 rounded-full hover:shadow-[0_0_20px_rgba(59,130,246,0.5)] transition-all border border-white/10">Yearbook</a>
+            </div>
+
+            <!-- Mobile Menu Button (Simple) -->
+            <button id="landing-menu-btn" class="md:hidden text-gray-800 focus:outline-none">
+                <svg class="w-6 h-6 transition-transform duration-300" fill="none" stroke="currentColor"
+                    viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16">
+                    </path>
+                </svg>
+            </button>
+        </div>
+
+        <!-- Mobile Menu Dropdown (Clean & Animated) -->
+        <div id="landing-mobile-menu"
+            class="absolute top-full mt-2 left-0 w-full min-w-[200px] bg-white rounded-2xl shadow-xl overflow-hidden transform origin-top transition-all duration-300 ease-out opacity-0 scale-95 pointer-events-none -translate-y-2">
+            <div class="flex flex-col p-2">
+                <a href="/kelas" data-navigo
+                    class="px-4 py-3 hover:bg-gray-50 rounded-xl text-sm font-medium transition-colors">Moment
+                    Kelas</a>
+                <a href="/taruna" data-navigo
+                    class="px-4 py-3 hover:bg-gray-50 rounded-xl text-sm font-medium transition-colors">Moment
+                    Taruna</a>
+                <a href="/panitia" data-navigo
+                    class="px-4 py-3 hover:bg-gray-50 rounded-xl text-sm font-medium transition-colors">Panitia</a>
+                <a href="/guru" data-navigo
+                    class="px-4 py-3 hover:bg-gray-50 rounded-xl text-sm font-medium transition-colors">Guru</a>
+                <a href="/yearbook" data-navigo
+                    class="px-4 py-3 hover:bg-gray-50 rounded-xl text-sm font-medium text-primary font-semibold transition-colors">Yearbook</a>
+            </div>
+        </div>
+    </nav>
+
+    <div id="kelas-content">
+        <!-- Hero Header Section (Premium Style - Parallax) -->
+        <header
+            class="sticky top-0 pt-40 pb-20 px-4 bg-black text-white overflow-hidden min-h-[40vh] flex items-center justify-center">
+            <!-- Background Effects -->
+            <div
+                class="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/stardust.png')] opacity-20">
+            </div>
+            <div class="absolute top-0 right-0 w-96 h-96 bg-primary/20 rounded-full blur-[100px] pointer-events-none">
+            </div>
+            <div
+                class="absolute bottom-0 left-0 w-96 h-96 bg-secondary/20 rounded-full blur-[100px] pointer-events-none">
+            </div>
+
+            <div class="max-w-4xl mx-auto text-center relative z-10">
+                <h1 id="kelas-title"
+                    class="text-5xl md:text-8xl font-bold tracking-tighter mb-6 bg-clip-text text-transparent bg-gradient-to-b from-white to-gray-400 animate-fade-in-up">
+                    KELAS
+                </h1>
+                <p id="kelas-subtitle" class="text-sm font-bold tracking-[0.2em] uppercase mb-4 animate-fade-in-up">
+                    Jurusan
+                </p>
+                <a id="btn-lihat-yearbook" href="/yearbook"
+                    class="inline-block px-8 py-3 bg-white text-black font-bold rounded-full hover:bg-gray-200 transition-all transform hover:scale-105 animate-fade-in-up shadow-[0_0_20px_rgba(255,255,255,0.3)]">
+                    Lihat Yearbook
+                </a>
+            </div>
+        </header>
+
+        <!-- Class Moments Section -->
+        <section class="py-12 md:py-16 bg-white -mt-8 rounded-t-[40px] relative z-20">
+            <div class="max-w-7xl mx-auto">
+                <div class="text-center mb-8 md:mb-12 px-4 md:text-center">
+                    <h2 class="text-2xl md:text-3xl font-bold mb-2">Class Moments</h2>
+                    <p class="text-gray-500 text-sm md:text-base">Momen-momen yang membuat kelas menjadi yang terbaik
+                    </p>
+                </div>
+
+                <!-- Horizontal Scroll Container with Indicators -->
+                <div class="relative group/scroll">
+                    <!-- Left Gradient (scroll indicator) -->
+                    <div id="moments-left-gradient"
+                        class="opacity-0 transition-opacity duration-300 absolute left-0 top-0 bottom-0 w-8 md:w-12 bg-gradient-to-r from-white to-transparent z-10 pointer-events-none">
+                    </div>
+
+                    <!-- Right Gradient with Arrow -->
+                    <div id="moments-right-gradient"
+                        class="opacity-100 md:opacity-0 transition-opacity duration-300 absolute right-0 top-0 bottom-0 w-10 md:w-16 bg-gradient-to-l from-white to-transparent z-10 pointer-events-none flex items-center justify-end pr-2 md:pr-3">
+                        <div class="text-gray-400 animate-pulse">
+                            <svg class="w-5 h-5 md:w-6 md:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                            </svg>
+                        </div>
+                    </div>
+
+                    <!-- Scrollable Content (centered on desktop) -->
+                    <div id="class-moments-container"
+                        class="flex gap-4 md:gap-6 overflow-x-auto md:overflow-x-visible md:justify-center pb-4 pt-2 px-4 scrollbar-hide scroll-smooth snap-x snap-mandatory md:snap-none md:flex-wrap"
+                        style="overscroll-behavior-x: contain;">
+                        <!-- Placeholder - will be replaced by JS -->
+                        <div
+                            class="shrink-0 w-[280px] md:w-[320px] aspect-square bg-gray-100 rounded-xl flex items-center justify-center text-gray-300 animate-pulse snap-center">
+                        </div>
+                        <div
+                            class="shrink-0 w-[280px] md:w-[320px] aspect-square bg-gray-100 rounded-xl flex items-center justify-center text-gray-300 animate-pulse snap-center">
+                        </div>
+                        <div
+                            class="shrink-0 w-[280px] md:w-[320px] aspect-square bg-gray-100 rounded-xl flex items-center justify-center text-gray-300 animate-pulse snap-center">
+                        </div>
+                        <!-- End Padding -->
+                        <div class="w-1 shrink-0"></div>
+                    </div>
+                </div>
+
+                <!-- Click Hint (mobile only) -->
+                <p
+                    class="text-center text-gray-500 text-xs mt-1 px-4 flex md:hidden items-center justify-center gap-1.5">
+                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z">
+                        </path>
+                    </svg>
+                    Ketuk foto untuk melihat lebih besar
+                </p>
+            </div>
+        </section>
+
+        <!-- Last Photograph Section -->
+        <section class="py-12 md:py-24 bg-white relative z-20">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="flex flex-col gap-3 md:gap-0 md:flex-row md:items-end mb-6 md:mb-8">
+                    <h2 class="text-2xl md:text-4xl font-bold">The Last Photograph</h2>
+                    <p class="text-gray-500 max-w-md text-xs md:text-sm md:pb-1 md:ml-auto md:text-right">
+                        Ini adalah saat paling penting. Kebersamaan yang paling berharga dibentuk dengan momen akhir
+                    </p>
+                </div>
+                <div id="last-photo-container"
+                    class="aspect-[4/3] md:aspect-[21/9] bg-gray-200 rounded-xl md:rounded-2xl overflow-hidden flex items-center justify-center text-gray-400">
+                    <!-- Placeholder - will be replaced by JS -->
+                    <svg class="w-16 h-16 md:w-24 md:h-24" fill="currentColor" viewBox="0 0 24 24">
+                        <path
+                            d="M21 19V5c0-1.1-.9-2-2-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2zM8.5 13.5l2.5 3.01L14.5 12l4.5 6H5l3.5-4.5z" />
+                    </svg>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-50 border-t border-gray-200 py-16 relative z-20">
+        <div class="max-w-7xl mx-auto px-4 flex flex-col items-center justify-center text-center">
+            <h2 class="text-3xl font-bold tracking-tighter mb-6 font-sans">ANTIRTA</h2>
+            <div class="flex gap-8 text-gray-500 text-sm font-medium mb-8">
+                <a href="#" class="hover:text-black transition-colors">Instagram</a>
+                <a href="#" class="hover:text-black transition-colors">YouTube</a>
+                <a href="#" class="hover:text-black transition-colors">Contact</a>
+            </div>
+            <p class="text-gray-400 text-xs">© 2024 Panitia Angkatan 20. Crafted with passion.</p>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,324 @@
+<div class="min-h-screen bg-white font-sans relative">
+
+  <!-- Modern Floating Navbar (Initially Hidden) -->
+  <nav id="landing-navbar"
+    class="fixed top-6 left-1/2 transform -translate-x-1/2 z-50 transition-all duration-500 -translate-y-[200%] opacity-0">
+    <div
+      class="bg-white/90 backdrop-blur-md shadow-lg rounded-full px-6 py-3 flex items-center gap-8 border border-white/20 relative z-50">
+      <a href="/" data-navigo class="flex items-center">
+        <img src="/src/assets/logo.webp" alt="ANTASERIN" class="h-10 w-auto" />
+      </a>
+
+      <!-- Desktop Links -->
+      <div class="hidden md:flex items-center gap-6 text-sm font-medium text-gray-600">
+        <a href="/kelas" data-navigo class="hover:text-black transition-colors">Kelas</a>
+        <a href="/taruna" data-navigo class="hover:text-black transition-colors">Taruna</a>
+        <a href="/panitia" data-navigo class="hover:text-black transition-colors">Panitia</a>
+        <a href="/guru" data-navigo class="hover:text-black transition-colors">Guru</a>
+        <a href="/yearbook" data-navigo
+          class="bg-gradient-to-r from-primary to-blue-600 text-white px-4 py-1.5 rounded-full hover:shadow-[0_0_20px_rgba(59,130,246,0.5)] transition-all border border-white/10">Yearbook</a>
+      </div>
+
+      <!-- Mobile Menu Button (Simple) -->
+      <button id="landing-menu-btn" class="md:hidden text-gray-800 focus:outline-none">
+        <svg class="w-6 h-6 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+        </svg>
+      </button>
+    </div>
+
+    <!-- Mobile Menu Dropdown (Clean & Animated) -->
+    <!-- Removed 'hidden', using opacity/pointer-events/scale for transitions -->
+    <div id="landing-mobile-menu"
+      class="absolute top-full mt-2 left-0 w-full min-w-[200px] bg-white rounded-2xl shadow-xl overflow-hidden transform origin-top transition-all duration-300 ease-out opacity-0 scale-95 pointer-events-none -translate-y-2">
+      <div class="flex flex-col p-2">
+        <a href="/kelas" data-navigo
+          class="px-4 py-3 hover:bg-gray-50 rounded-xl text-sm font-medium transition-colors">Moment Kelas</a>
+        <a href="/taruna" data-navigo
+          class="px-4 py-3 hover:bg-gray-50 rounded-xl text-sm font-medium transition-colors">Moment Taruna</a>
+        <a href="/panitia" data-navigo
+          class="px-4 py-3 hover:bg-gray-50 rounded-xl text-sm font-medium transition-colors">Panitia</a>
+        <a href="/guru" data-navigo
+          class="px-4 py-3 hover:bg-gray-50 rounded-xl text-sm font-medium transition-colors">Guru</a>
+        <a href="/yearbook" data-navigo
+          class="px-4 py-3 hover:bg-gray-50 rounded-xl text-sm font-medium text-primary font-semibold transition-colors">Yearbook</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section with Slider -->
+  <section class="relative h-screen w-full flex items-center justify-center overflow-hidden bg-black text-white">
+    <!-- Slider Container -->
+    <div id="hero-slider" class="absolute inset-0 z-0 select-none pointer-events-none">
+      <div
+        class="hero-slide absolute inset-0 bg-cover bg-center transition-opacity duration-1000 ease-out opacity-100 scale-105"
+        style="background-image: url('https://images.unsplash.com/photo-1523580494863-6f3031224c94?q=80&w=2070&auto=format&fit=crop');">
+      </div>
+      <div
+        class="hero-slide absolute inset-0 bg-cover bg-center transition-opacity duration-1000 ease-out opacity-0 scale-105"
+        style="background-image: url('https://images.unsplash.com/photo-1541339907198-e08756dedf3f?q=80&w=2070&auto=format&fit=crop');">
+      </div>
+      <div
+        class="hero-slide absolute inset-0 bg-cover bg-center transition-opacity duration-1000 ease-out opacity-0 scale-105"
+        style="background-image: url('https://images.unsplash.com/photo-1427504746074-ce47bdb5a268?q=80&w=2070&auto=format&fit=crop');">
+      </div>
+      <div class="absolute inset-0 bg-black/40"></div>
+    </div>
+
+    <div class="relative z-10 text-center px-4 max-w-5xl mx-auto">
+      <div class="animate-fade-in-up">
+        <h1 class="text-5xl md:text-9xl font-bold tracking-tighter text-white mb-4 drop-shadow-2xl">
+          ANTASERIN
+        </h1>
+        <p class="text-sm md:text-xl text-gray-200 font-light tracking-[0.5em] uppercase opacity-90">
+          Angkatan 20
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Quote Section -->
+  <section class="bg-white text-black py-24 md:py-32 flex items-center justify-center px-6">
+    <div class="max-w-3xl mx-auto text-center">
+      <p class="text-3xl md:text-5xl font-serif italic leading-tight text-gray-900 mb-6">
+        "Creating History, <br class="hidden md:block" /> Leaving a <span class="text-primary">Legacy.</span>"
+      </p>
+      <p
+        class="text-sm md:text-base text-gray-500 font-light tracking-wide uppercase mt-8 border-t border-gray-100 pt-8 inline-block px-12">
+        Est. 2024
+      </p>
+    </div>
+  </section>
+
+  <!-- Explore Grid -->
+  <section id="explore" class="py-12 md:py-24 bg-gray-50 px-4 sm:px-6 lg:px-8">
+    <div class="max-w-7xl mx-auto">
+      <div class="mb-12 md:mb-16 flex flex-col md:flex-row md:items-end justify-between gap-4">
+        <div>
+          <h2 class="text-4xl md:text-5xl font-bold text-gray-900 tracking-tight mb-3">Explore The Moments</h2>
+          <p class="text-gray-500 text-lg font-light">Explore the chapters of our journey.</p>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
+        <!-- Momen Kelas -->
+        <a href="/kelas" data-navigo
+          class="group relative block h-[300px] md:h-[400px] rounded-3xl overflow-hidden bg-gray-100 shadow-sm hover:shadow-xl transition-all duration-500">
+          <div class="explore-slider absolute inset-0 transition-transform duration-700 group-hover:scale-105"
+            data-interval="3000">
+            <img src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?q=80&w=2070&auto=format&fit=crop"
+              class="explore-slide absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 opacity-100" />
+            <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?q=80&w=2070&auto=format&fit=crop"
+              class="explore-slide absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 opacity-0" />
+            <img src="https://images.unsplash.com/photo-1577896851231-70ef18881754?q=80&w=2070&auto=format&fit=crop"
+              class="explore-slide absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 opacity-0" />
+          </div>
+          <div
+            class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-90 group-hover:opacity-100 transition-opacity duration-500">
+          </div>
+          <div class="absolute bottom-0 left-0 p-6 md:p-8 w-full">
+            <div class="flex items-center justify-between">
+              <div>
+                <p class="text-white/70 text-xs font-bold tracking-widest uppercase mb-2">Classroom</p>
+                <h3 class="text-2xl md:text-3xl font-bold text-white">Momen Kelas</h3>
+              </div>
+              <div
+                class="h-10 w-10 bg-white/10 rounded-full flex items-center justify-center backdrop-blur-md group-hover:bg-white text-white group-hover:text-black transition-all duration-300 transform translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3">
+                  </path>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </a>
+
+        <!-- Momen Taruna -->
+        <a href="/taruna" data-navigo
+          class="group relative block h-[300px] md:h-[400px] rounded-3xl overflow-hidden bg-gray-100 shadow-sm hover:shadow-xl transition-all duration-500">
+          <div class="explore-slider absolute inset-0 transition-transform duration-700 group-hover:scale-105"
+            data-interval="3500">
+            <img src="https://images.unsplash.com/photo-1532009877282-33fa0773ea5a?q=80&w=2074&auto=format&fit=crop"
+              class="explore-slide absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 opacity-100" />
+            <img src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?q=80&w=2070&auto=format&fit=crop"
+              class="explore-slide absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 opacity-0" />
+            <img src="https://images.unsplash.com/photo-1526634332515-d56d31bb9d2d?q=80&w=2070&auto=format&fit=crop"
+              class="explore-slide absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 opacity-0" />
+          </div>
+          <div
+            class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-90 group-hover:opacity-100 transition-opacity duration-500">
+          </div>
+          <div class="absolute bottom-0 left-0 p-6 md:p-8 w-full">
+            <div class="flex items-center justify-between">
+              <div>
+                <p class="text-white/70 text-xs font-bold tracking-widest uppercase mb-2">Field Training</p>
+                <h3 class="text-2xl md:text-3xl font-bold text-white">Momen Taruna</h3>
+              </div>
+              <div
+                class="h-10 w-10 bg-white/10 rounded-full flex items-center justify-center backdrop-blur-md group-hover:bg-white text-white group-hover:text-black transition-all duration-300 transform translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3">
+                  </path>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </a>
+
+        <!-- Video Angkatan -->
+        <div
+          class="md:col-span-2 group relative block h-[500px] md:h-[600px] rounded-3xl overflow-hidden bg-black shadow-2xl ring-1 ring-black/5 hover:ring-black/10 transition-all duration-500">
+          <div class="absolute inset-0 w-full h-full">
+            <video autoplay loop muted playsinline
+              class="w-full h-full object-cover opacity-60 group-hover:opacity-80 transition-opacity duration-700">
+              <source src="https://videos.pexels.com/video-files/3195394/3195394-hd_1920_1080_25fps.mp4"
+                type="video/mp4">
+              <img src="https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?q=80&w=2070&auto=format&fit=crop"
+                class="w-full h-full object-cover" />
+            </video>
+          </div>
+          <div class="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent"></div>
+          <div class="absolute inset-0 flex flex-col items-center justify-center text-center p-6 z-10">
+            <div
+              class="bg-white/10 backdrop-blur-md border border-white/20 p-6 rounded-full mb-8 transform group-hover:scale-110 transition-transform duration-500 cursor-pointer shadow-[0_0_30px_rgba(255,255,255,0.1)]">
+              <svg class="w-10 h-10 md:w-16 md:h-16 text-white pl-1" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M8 5v14l11-7z" />
+              </svg>
+            </div>
+            <h3 class="text-4xl md:text-7xl font-bold text-white mb-4 tracking-tighter drop-shadow-lg">
+              VIDEO ANGKATAN
+            </h3>
+            <p
+              class="text-gray-300 text-lg md:text-xl max-w-lg mx-auto font-light leading-relaxed mb-8 opacity-0 group-hover:opacity-100 transform translate-y-4 group-hover:translate-y-0 transition-all duration-500 delay-100">
+              Saksikan kembali setiap tawa, tangis, dan perjuangan kita dalam sebuah mahakarya visual.
+            </p>
+            <button
+              class="px-8 py-3 bg-gradient-to-r from-primary to-blue-600 text-white font-bold rounded-full hover:shadow-[0_0_30px_rgba(0,86,210,0.6)] transition-all duration-300 transform scale-90 opacity-0 group-hover:scale-100 group-hover:opacity-100 delay-200 border border-white/10">
+              Tonton Video Full
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Digital Yearbook Highlight (NEW PARTICLES) -->
+  <section class="py-32 bg-black text-white relative overflow-hidden flex items-center justify-center">
+    <div class="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/stardust.png')] opacity-20">
+    </div>
+
+    <!-- Enhanced Particles - More quantity & variety -->
+    <div class="particles absolute inset-0 overflow-hidden pointer-events-none">
+      <!-- Glow Orbs -->
+      <div
+        class="absolute w-[500px] h-[500px] bg-secondary/5 rounded-full blur-[120px] top-[-100px] left-[-100px] animate-float">
+      </div>
+      <div
+        class="absolute w-[400px] h-[400px] bg-primary/5 rounded-full blur-[100px] bottom-[-50px] right-[-50px] animate-float-delayed">
+      </div>
+
+      <!-- Fireflies (Small & Bright) -->
+      <div
+        class="absolute w-2 h-2 bg-yellow-200 rounded-full blur-[1px] top-[20%] left-[20%] animate-float opacity-80 duration-[8s]">
+      </div>
+      <div
+        class="absolute w-1.5 h-1.5 bg-white rounded-full blur-[1px] top-[15%] left-[80%] animate-float-delayed opacity-70 duration-[12s]">
+      </div>
+      <div
+        class="absolute w-3 h-3 bg-yellow-100 rounded-full blur-[2px] top-[70%] left-[10%] animate-pulse-glow opacity-50 duration-[6s]">
+      </div>
+      <div
+        class="absolute w-1 h-1 bg-white rounded-full blur-[0px] top-[40%] right-[30%] animate-float opacity-90 duration-[15s]">
+      </div>
+      <div
+        class="absolute w-2 h-2 bg-yellow-300 rounded-full blur-[2px] bottom-[30%] left-[50%] animate-float-delayed opacity-60 duration-[9s]">
+      </div>
+      <div
+        class="absolute w-1 h-1 bg-white rounded-full blur-[1px] bottom-[15%] right-[20%] animate-float opacity-80 duration-[11s]">
+      </div>
+      <div
+        class="absolute w-2.5 h-2.5 bg-yellow-50 rounded-full blur-[3px] top-[10%] right-[40%] animate-pulse-glow opacity-50 duration-[7s]">
+      </div>
+      <div
+        class="absolute w-1 h-1 bg-white rounded-full blur-[0px] top-[50%] left-[40%] animate-float opacity-70 duration-[13s]">
+      </div>
+      <div
+        class="absolute w-2 h-2 bg-blue-100 rounded-full blur-[1px] bottom-[40%] left-[10%] animate-float-delayed opacity-40 duration-[10s]">
+      </div>
+      <div
+        class="absolute w-1.5 h-1.5 bg-yellow-200 rounded-full blur-[1px] bottom-[10%] right-[60%] animate-float opacity-60 duration-[14s]">
+      </div>
+    </div>
+
+    <div class="max-w-4xl mx-auto px-4 text-center relative z-10">
+      <span
+        class="inline-block py-1 px-3 rounded-full bg-white/10 border border-white/20 text-xs font-semibold mb-8 backdrop-blur-md uppercase tracking-widest text-yellow-100/80">
+        The Main Event
+      </span>
+      <h2
+        class="text-5xl md:text-8xl font-bold mb-8 tracking-tighter text-transparent bg-clip-text bg-gradient-to-b from-white via-white to-gray-500 drop-shadow-[0_0_25px_rgba(255,255,255,0.2)] pb-2">
+        Digital Yearbook
+      </h2>
+      <p class="text-xl md:text-2xl text-gray-400 mb-12 max-w-2xl mx-auto font-light leading-relaxed">
+        Setiap wajah, setiap nama, abadi di sini. <br />
+        <span class="text-white/60">Kapsul waktu untuk kita kembali pulang.</span>
+      </p>
+      <a href="/yearbook" data-navigo
+        class="group relative inline-flex items-center justify-center px-12 py-5 bg-yellow-100 text-gray-900 font-bold text-lg rounded-full overflow-hidden transition-all hover:scale-105 hover:bg-yellow-200 hover:shadow-[0_0_40px_rgba(254,249,195,0.5)]">
+        <span class="relative z-10">Open Yearbook</span>
+        <div
+          class="absolute inset-0 bg-white/30 transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-300">
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-black py-16">
+    <div class="max-w-7xl mx-auto px-4 flex flex-col items-center justify-center text-center">
+      <h2 class="text-3xl font-bold tracking-tighter mb-6 font-sans text-white">ANTASERIN</h2>
+      <div class="flex gap-8 text-gray-400 text-sm font-medium mb-8">
+        <a href="#" class="hover:text-white transition-colors">Instagram</a>
+        <a href="#" class="hover:text-white transition-colors">YouTube</a>
+        <a href="#" class="hover:text-white transition-colors">Contact</a>
+      </div>
+      <p class="text-gray-500 text-xs">© 2024 Panitia Angkatan 20. Crafted with passion.</p>
+    </div>
+  </footer>
+
+  <!-- Year Selection Modal -->
+  <div id="year-modal" class="fixed inset-0 z-[100] hidden" role="dialog" aria-modal="true">
+    <!-- Backdrop -->
+    <div class="absolute inset-0 bg-black/60 backdrop-blur-sm transition-opacity opacity-0" id="year-modal-backdrop">
+    </div>
+
+    <!-- Modal Content -->
+    <div class="absolute inset-0 flex items-center justify-center p-4">
+      <div
+        class="bg-white rounded-3xl shadow-2xl w-full max-w-md p-8 transform scale-95 opacity-0 transition-all duration-300"
+        id="year-modal-content">
+        <div class="flex justify-between items-center mb-6">
+          <h3 class="text-2xl font-bold text-gray-900 tracking-tight">Pilih Tahun</h3>
+          <button id="close-year-modal"
+            class="text-gray-400 hover:text-gray-600 transition-colors p-2 bg-gray-100 rounded-full">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+            </svg>
+          </button>
+        </div>
+
+        <div class="space-y-3" id="year-options-container">
+          <!-- Options will be injected via JS -->
+          <div class="animate-pulse flex flex-col gap-3">
+            <div class="h-14 bg-gray-100 rounded-xl"></div>
+            <div class="h-14 bg-gray-100 rounded-xl"></div>
+            <div class="h-14 bg-gray-100 rounded-xl"></div>
+          </div>
+        </div>
+
+        <p class="text-xs text-center text-gray-400 mt-6">Pilih tahun angkatan untuk melihat momen.</p>
+      </div>
+    </div>
+  </div>
+
+</div>

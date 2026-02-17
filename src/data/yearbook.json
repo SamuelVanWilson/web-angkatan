@@ -1,0 +1,117 @@
+[
+    {
+        "id": "angkatan_20",
+        "label": "Yearbook Angkatan 20",
+        "pages": [
+            "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?q=80&w=1500&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1577896851231-70ef18881754?q=80&w=1500&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=1500&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1509062522246-3755977927d7?q=80&w=1500&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1523580494863-6f3031224c94?q=80&w=1500&auto=format&fit=crop"
+        ]
+    },
+    {
+        "id": "12_rpl_1",
+        "label": "12 RPL 1",
+        "pages": [
+            "/src/assets/testing1.png",
+            "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?q=80&w=1500&auto=format&fit=crop",
+            "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=1500&auto=format&fit=crop"
+        ]
+    },
+    {
+        "id": "12_rpl_2",
+        "label": "12 RPL 2",
+        "pages": []
+    },
+    {
+        "id": "12_mp_1",
+        "label": "12 MP 1",
+        "pages": []
+    },
+    {
+        "id": "12_mp_2",
+        "label": "12 MP 2",
+        "pages": []
+    },
+    {
+        "id": "12_ak_1",
+        "label": "12 AK 1",
+        "pages": []
+    },
+    {
+        "id": "12_ak_2",
+        "label": "12 AK 2",
+        "pages": []
+    },
+    {
+        "id": "12_tkj_1",
+        "label": "12 TKJ 1",
+        "pages": []
+    },
+    {
+        "id": "12_tkj_2",
+        "label": "12 TKJ 2",
+        "pages": []
+    },
+    {
+        "id": "12_tsm_1",
+        "label": "12 TSM 1",
+        "pages": []
+    },
+    {
+        "id": "12_tsm_2",
+        "label": "12 TSM 2",
+        "pages": []
+    },
+    {
+        "id": "12_tkr_1",
+        "label": "12 TKR 1",
+        "pages": []
+    },
+    {
+        "id": "12_tkr_2",
+        "label": "12 TKR 2",
+        "pages": []
+    },
+    {
+        "id": "12_tpm_1",
+        "label": "12 TPM 1",
+        "pages": []
+    },
+    {
+        "id": "12_tpm_2",
+        "label": "12 TPM 2",
+        "pages": []
+    },
+    {
+        "id": "12_aphpi_1",
+        "label": "12 APHPi 1",
+        "pages": []
+    },
+    {
+        "id": "12_aphpi_2",
+        "label": "12 APHPi 2",
+        "pages": []
+    },
+    {
+        "id": "12_dkv_1",
+        "label": "12 DKV 1",
+        "pages": []
+    },
+    {
+        "id": "12_dkv_2",
+        "label": "12 DKV 2",
+        "pages": []
+    },
+    {
+        "id": "12_ph_1",
+        "label": "12 PH 1",
+        "pages": []
+    },
+    {
+        "id": "12_ph_2",
+        "label": "12 PH 2",
+        "pages": []
+    }
+]
