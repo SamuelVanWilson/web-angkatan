@@ -1,10 +1,8 @@
 import Navigo from 'navigo';
 import { initHeroCarousel, initNavbar } from './scripts/home.js';
 import { initPanitiaPage } from './scripts/panitia.js';
-import { initTarunaPage } from './scripts/taruna.js';
 import { initKelasPage } from './scripts/kelas.js';
 import { initYearbook } from './scripts/yearbook.js';
-import { initGuruPage } from './scripts/guru.js';
 
 let router;
 let appContainer;
@@ -43,14 +41,10 @@ async function loadPage(pageName) {
             pageCleanup = initHeroCarousel();
         } else if (pageName === 'panitia') {
             pageCleanup = await initPanitiaPage();
-        } else if (pageName === 'taruna') {
-            await initTarunaPage();
         } else if (pageName === 'kelas') {
             await initKelasPage();
         } else if (pageName === 'yearbook') {
             await initYearbook();
-        } else if (pageName === 'guru') {
-            pageCleanup = await initGuruPage();
         }
 
         // Scroll to top
@@ -111,10 +105,8 @@ export function initRouter() {
     // Define routes
     router
         .on('/', () => loadPage('index'))
-        .on('/taruna', () => loadPage('taruna'))
         .on('/kelas', () => loadPage('kelas'))
         .on('/panitia', () => loadPage('panitia'))
-        .on('/guru', () => loadPage('guru'))
         .on('/yearbook', () => loadPage('yearbook'))
         .notFound(() => {
             appContainer.innerHTML = '<div class="text-center py-20"><h1 class="text-4xl font-bold">404 - Page Not Found</h1></div>';

@@ -67,7 +67,7 @@ function renderPage(data) {
   const momentsContainer = document.getElementById('class-moments-container');
   if (momentsContainer && data.classMoments) {
     momentsContainer.innerHTML = data.classMoments.map((item, index) => `
-          <div class="shrink-0 w-[280px] md:w-[320px] aspect-square bg-gray-100 rounded-xl flex items-center justify-center text-gray-300 hover:bg-gray-200 transition-colors cursor-pointer overflow-hidden group snap-center relative" data-lightbox-src="${item.image || ''}">
+          <div class="shrink-0 w-[280px] md:w-[320px] aspect-[3/4] bg-gray-100 rounded-xl flex items-center justify-center text-gray-300 hover:bg-gray-200 transition-colors cursor-pointer overflow-hidden group snap-center relative" data-lightbox-src="${item.image || ''}">
             ${item.image ? `
               <img src="${item.image}" alt="${item.title}" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
               <!-- Click Indicator -->
@@ -90,7 +90,7 @@ function renderPage(data) {
     momentsContainer.querySelectorAll('[data-lightbox-src]').forEach(el => {
       const src = el.dataset.lightboxSrc;
       if (src) {
-        el.addEventListener('click', () => openLightbox(src));
+        el.addEventListener('click', () => openLightbox(src, true));
       }
     });
 
@@ -106,7 +106,7 @@ function renderPage(data) {
               <img src="${data.lastPhotograph}" alt="The Last Photograph" class="w-full h-full object-cover cursor-pointer hover:brightness-90 transition-all duration-300" data-lightbox-src="${data.lastPhotograph}">
             `;
       // Add click handler
-      lastPhotoContainer.querySelector('[data-lightbox-src]').addEventListener('click', () => openLightbox(data.lastPhotograph));
+      lastPhotoContainer.querySelector('[data-lightbox-src]').addEventListener('click', () => openLightbox(data.lastPhotograph, false));
     } else {
       lastPhotoContainer.innerHTML = `
               <svg class="w-16 h-16 md:w-24 md:h-24 text-gray-400" fill="currentColor" viewBox="0 0 24 24">
@@ -118,12 +118,21 @@ function renderPage(data) {
 }
 
 // Lightbox functions
-function openLightbox(src) {
+function openLightbox(src, isMoment = false) {
   const lightbox = document.getElementById('photo-lightbox');
   const lightboxImage = document.getElementById('lightbox-image');
 
   if (lightbox && lightboxImage && src) {
     lightboxImage.src = src;
+
+    if (isMoment) {
+      lightboxImage.classList.add('aspect-[3/4]', 'object-cover', 'w-full', 'md:w-auto', 'md:h-full');
+      lightboxImage.classList.remove('object-contain');
+    } else {
+      lightboxImage.classList.remove('aspect-[3/4]', 'object-cover', 'w-full', 'md:w-auto', 'md:h-full');
+      lightboxImage.classList.add('object-contain');
+    }
+
     lightbox.classList.remove('hidden');
     document.body.style.overflow = 'hidden';
   }

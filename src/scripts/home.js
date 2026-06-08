@@ -53,7 +53,7 @@ export function initHeroCarousel() {
         const heroInterval = setInterval(() => {
             heroCurrent = (heroCurrent + 1) % heroSlides.length;
             updateSlides(heroSlides, heroCurrent);
-        }, 800);
+        }, 4000); // Diperlambat menjadi 4 detik
         intervals.push(heroInterval);
     }
 

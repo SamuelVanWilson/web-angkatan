@@ -3,196 +3,189 @@
         "name": "Dafi",
         "role": "Ketua Pelaksana",
         "division": "Badan Pengurus Harian",
-        "class": "XII...",
-        "instagram": "@username"
+        "instagram": "dafyrsy",
+        "image": "/src/assets/panitia/dafy.webp"
     },
     {
         "name": "Bani",
         "role": "Wakil Ketua",
         "division": "Badan Pengurus Harian",
-        "class": "XII...",
-        "instagram": "@username"
+        "instagram": "m1k4ze_",
+        "image": "/src/assets/panitia/bani.webp"
     },
     {
         "name": "Icha",
         "role": "Sekretaris 1",
         "division": "Badan Pengurus Harian",
-        "class": "XII...",
-        "instagram": "@username"
+        "instagram": "",
+        "image": "/src/assets/panitia/nurhalisa.webp"
     },
     {
         "name": "Kayla",
         "role": "Sekretaris 2",
         "division": "Badan Pengurus Harian",
-        "class": "XII...",
-        "instagram": "@username"
+        "instagram": "kaikokayla",
+        "image": "/src/assets/panitia/kayla.webp"
     },
     {
         "name": "Zahra",
         "role": "Bendahara 1",
         "division": "Badan Pengurus Harian",
-        "class": "XII...",
-        "instagram": "@username"
+        "instagram": "zzra_elvn",
+        "image": "/src/assets/panitia/zahra.webp"
     },
     {
         "name": "Aisyah",
         "role": "Bendahara 2",
         "division": "Badan Pengurus Harian",
-        "class": "XII...",
-        "instagram": "@username"
+        "instagram": "asfvrl_5",
+        "image": "/src/assets/panitia/aisya.webp"
     },
     {
         "name": "Egi",
         "role": "Koordinator",
         "division": "Kreatif & Konsep",
-        "class": "XII...",
-        "instagram": "@username"
+        "instagram": "berryonare"
     },
     {
         "name": "Akbar",
         "role": "Anggota",
         "division": "Kreatif & Konsep",
-        "class": "XII...",
-        "instagram": "@username"
+        "instagram": "",
+        "image": "/src/assets/panitia/akbar.webp"
     },
     {
         "name": "Ridho",
         "role": "Anggota",
         "division": "Kreatif & Konsep",
-        "class": "XII...",
-        "instagram": "@username"
+        "instagram": ""
     },
     {
         "name": "Nazifa",
         "role": "Koordinator",
         "division": "Publikasi & Media",
-        "class": "XII...",
-        "instagram": "@username"
+        "instagram": "alianaziifa"
     },
     {
         "name": "Nabil",
         "role": "Anggota",
         "division": "Publikasi & Media",
-        "class": "XII...",
-        "instagram": "@username"
+        "instagram": "nblrfynsyh_"
     },
     {
         "name": "Tristan",
         "role": "Anggota",
         "division": "Publikasi & Media",
-        "class": "XII...",
-        "instagram": "@username"
+        "instagram": "trist.alder"
     },
     {
         "name": "Samuel",
         "role": "Anggota",
         "division": "Publikasi & Media",
-        "class": "XII...",
-        "instagram": "@username"
+        "instagram": "samuellvann",
+        "image": "/src/assets/panitia/samuel.webp"
     },
     {
         "name": "Syahdan",
         "role": "Anggota",
         "division": "Publikasi & Media",
-        "class": "XII...",
-        "instagram": "@username"
+        "instagram": "",
+        "image": "/src/assets/panitia/syahdan.webp"
     },
     {
         "name": "Joan",
         "role": "Koordinator",
         "division": "Humas & Sponsorship",
-        "class": "XII...",
-        "instagram": "@username"
+        "instagram": "",
+        "image": "/src/assets/panitia/joan.webp"
     },
     {
         "name": "Christian",
         "role": "Anggota",
         "division": "Humas & Sponsorship",
-        "class": "XII...",
-        "instagram": "@username"
+        "instagram": ""
     },
     {
         "name": "Alfan",
         "role": "Anggota",
         "division": "Humas & Sponsorship",
-        "class": "XII...",
-        "instagram": "@username"
+        "instagram": "alfanstino",
+        "image": "/src/assets/panitia/Alfan Setiano.webp"
     },
     {
         "name": "Yaya",
         "role": "Anggota",
         "division": "Humas & Sponsorship",
-        "class": "XII...",
-        "instagram": "@username"
+        "instagram": "apoclypsje",
+        "image": "/src/assets/panitia/yaya.webp"
     },
     {
         "name": "Jocelyn",
         "role": "Anggota",
         "division": "Humas & Sponsorship",
-        "class": "XII...",
-        "instagram": "@username"
+        "instagram": "llynfang",
+        "image": "/src/assets/panitia/jocelyn.webp"
     },
     {
         "name": "Dean",
         "role": "Koordinator",
         "division": "Lapangan & Acara",
-        "class": "XII...",
-        "instagram": "@username"
+        "instagram": "yann_e3x",
+        "image": "/src/assets/panitia/dean.webp"
     },
     {
         "name": "Alan",
         "role": "Anggota",
         "division": "Lapangan & Acara",
-        "class": "XII...",
-        "instagram": "@username"
+        "instagram": "alnvlfrnd_"
     },
     {
         "name": "Angga",
         "role": "Anggota",
         "division": "Lapangan & Acara",
-        "class": "XII...",
-        "instagram": "@username"
+        "instagram": "nggsswr",
+        "image": "/src/assets/panitia/angga.webp"
     },
     {
         "name": "Dabi",
         "role": "Anggota",
         "division": "Lapangan & Acara",
-        "class": "XII...",
-        "instagram": "@username"
+        "instagram": "abbusajaa_",
+        "image": "/src/assets/panitia/dabi.webp"
     },
     {
         "name": "Daffa",
         "role": "Koordinator",
         "division": "Sarana & Prasarana",
-        "class": "XII...",
-        "instagram": "@username"
+        "instagram": "___boykaa",
+        "image": "/src/assets/panitia/daffa.webp"
     },
     {
         "name": "Kayla",
         "role": "Anggota",
         "division": "Sarana & Prasarana",
-        "class": "XII...",
-        "instagram": "@username"
+        "instagram": "kaikokayla",
+        "image": "/src/assets/panitia/kayla.webp"
     },
     {
         "name": "Zahra",
         "role": "Anggota",
         "division": "Sarana & Prasarana",
-        "class": "XII...",
-        "instagram": "@username"
+        "instagram": "zzra_elvn",
+        "image": "/src/assets/panitia/zahra.webp"
     },
     {
         "name": "Al",
         "role": "Anggota",
         "division": "Sarana & Prasarana",
-        "class": "XII...",
-        "instagram": "@username"
+        "instagram": "altsnxz4",
+        "image": "/src/assets/panitia/al.webp"
     },
     {
         "name": "Putra",
         "role": "Anggota",
         "division": "Sarana & Prasarana",
-        "class": "XII...",
-        "instagram": "@username"
+        "instagram": "Putra_sialien",
+        "image": "/src/assets/panitia/putra.webp"
     }
 ]
