@@ -9,7 +9,7 @@ export async function initGuruPage() {
   // Fetch Data
   let guruData = [];
   try {
-    const response = await fetch('/src/data/guru.json');
+    const response = await fetch('/data/guru.json');
     guruData = await response.json();
   } catch (error) {
     console.error("Failed to load guru data", error);

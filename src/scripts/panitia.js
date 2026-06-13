@@ -9,7 +9,7 @@ export async function initPanitiaPage() {
   // Fetch Data
   let panitiaData = [];
   try {
-    const response = await fetch('/src/data/panitia.json');
+    const response = await fetch('/data/panitia.json');
     panitiaData = await response.json();
   } catch (error) {
     console.error("Failed to load panitia data", error);

@@ -6,15 +6,15 @@
         "classMoments": [
             {
                 "title": "Moment 1",
-                "image": "/src/assets/moments/rpl1/WhatsApp%20Image%202026-06-07%20at%2018.09.31.webp"
+                "image": "/assets/moments/rpl1/WhatsApp%20Image%202026-06-07%20at%2018.09.31.webp"
             },
             {
                 "title": "Moment 2",
-                "image": "/src/assets/moments/rpl1/WhatsApp%20Image%202026-06-07%20at%2018.09.32%20(1).webp"
+                "image": "/assets/moments/rpl1/WhatsApp%20Image%202026-06-07%20at%2018.09.32%20(1).webp"
             },
             {
                 "title": "Moment 3",
-                "image": "/src/assets/moments/rpl1/WhatsApp%20Image%202026-06-07%20at%2018.09.32.webp"
+                "image": "/assets/moments/rpl1/WhatsApp%20Image%202026-06-07%20at%2018.09.32.webp"
             }
         ],
         "yearbookPages": [
@@ -27,7 +27,7 @@
             "https://images.unsplash.com/photo-1509062522246-3755977927d7?q=80&w=1500&auto=format&fit=crop",
             "https://images.unsplash.com/photo-1523580494863-6f3031224c94?q=80&w=2070&auto=format&fit=crop"
         ],
-        "lastPhotograph": "/src/assets/the_last_photo/rpl1.webp"
+        "lastPhotograph": "/assets/the_last_photo/rpl1.webp"
     },
     {
         "id": "12_rpl_2",
@@ -36,18 +36,18 @@
         "classMoments": [
             {
                 "title": "Moment 1",
-                "image": "/src/assets/moments/rpl2/WhatsApp%20Image%202026-06-07%20at%2018.13.16%20(1).webp"
+                "image": "/assets/moments/rpl2/WhatsApp%20Image%202026-06-07%20at%2018.13.16%20(1).webp"
             },
             {
                 "title": "Moment 2",
-                "image": "/src/assets/moments/rpl2/WhatsApp%20Image%202026-06-07%20at%2018.13.16%20(2).webp"
+                "image": "/assets/moments/rpl2/WhatsApp%20Image%202026-06-07%20at%2018.13.16%20(2).webp"
             },
             {
                 "title": "Moment 3",
-                "image": "/src/assets/moments/rpl2/WhatsApp%20Image%202026-06-07%20at%2018.13.16.webp"
+                "image": "/assets/moments/rpl2/WhatsApp%20Image%202026-06-07%20at%2018.13.16.webp"
             }
         ],
-        "lastPhotograph": "/src/assets/the_last_photo/rpl2.webp"
+        "lastPhotograph": "/assets/the_last_photo/rpl2.webp"
     },
     {
         "id": "12_ak_1",
@@ -56,18 +56,18 @@
         "classMoments": [
             {
                 "title": "Moment 1",
-                "image": "/src/assets/moments/ak1/WhatsApp%20Image%202026-06-07%20at%2017.51.04%20(1).webp"
+                "image": "/assets/moments/ak1/WhatsApp%20Image%202026-06-07%20at%2017.51.04%20(1).webp"
             },
             {
                 "title": "Moment 2",
-                "image": "/src/assets/moments/ak1/WhatsApp%20Image%202026-06-07%20at%2017.51.04.jpeg"
+                "image": "/assets/moments/ak1/WhatsApp%20Image%202026-06-07%20at%2017.51.04.jpeg"
             },
             {
                 "title": "Moment 3",
-                "image": "/src/assets/moments/ak1/WhatsApp%20Image%202026-06-07%20at%2017.51.04.webp"
+                "image": "/assets/moments/ak1/WhatsApp%20Image%202026-06-07%20at%2017.51.04.webp"
             }
         ],
-        "lastPhotograph": "/src/assets/the_last_photo/ak1.webp"
+        "lastPhotograph": "/assets/the_last_photo/ak1.webp"
     },
     {
         "id": "12_ak_2",
@@ -76,18 +76,18 @@
         "classMoments": [
             {
                 "title": "Moment 1",
-                "image": "/src/assets/moments/ak2/WhatsApp%20Image%202026-06-07%20at%2017.52.20%20(1).webp"
+                "image": "/assets/moments/ak2/WhatsApp%20Image%202026-06-07%20at%2017.52.20%20(1).webp"
             },
             {
                 "title": "Moment 2",
-                "image": "/src/assets/moments/ak2/WhatsApp%20Image%202026-06-07%20at%2017.52.20%20(2).webp"
+                "image": "/assets/moments/ak2/WhatsApp%20Image%202026-06-07%20at%2017.52.20%20(2).webp"
             },
             {
                 "title": "Moment 3",
-                "image": "/src/assets/moments/ak2/WhatsApp%20Image%202026-06-07%20at%2017.52.20.webp"
+                "image": "/assets/moments/ak2/WhatsApp%20Image%202026-06-07%20at%2017.52.20.webp"
             }
         ],
-        "lastPhotograph": "/src/assets/the_last_photo/ak2.webp"
+        "lastPhotograph": "/assets/the_last_photo/ak2.webp"
     },
     {
         "id": "12_ak_3",
@@ -96,18 +96,18 @@
         "classMoments": [
             {
                 "title": "Moment 1",
-                "image": "/src/assets/moments/ak3/WhatsApp%20Image%202026-06-07%20at%2017.59.03%20(1).webp"
+                "image": "/assets/moments/ak3/WhatsApp%20Image%202026-06-07%20at%2017.59.03%20(1).webp"
             },
             {
                 "title": "Moment 2",
-                "image": "/src/assets/moments/ak3/WhatsApp%20Image%202026-06-07%20at%2017.59.03.webp"
+                "image": "/assets/moments/ak3/WhatsApp%20Image%202026-06-07%20at%2017.59.03.webp"
             },
             {
                 "title": "Moment 3",
-                "image": "/src/assets/moments/ak3/WhatsApp%20Image%202026-06-07%20at%2017.59.04.webp"
+                "image": "/assets/moments/ak3/WhatsApp%20Image%202026-06-07%20at%2017.59.04.webp"
             }
         ],
-        "lastPhotograph": "/src/assets/the_last_photo/ak3.webp"
+        "lastPhotograph": "/assets/the_last_photo/ak3.webp"
     },
     {
         "id": "12_aphp_1",
@@ -116,18 +116,18 @@
         "classMoments": [
             {
                 "title": "Moment 1",
-                "image": "/src/assets/moments/aphp1/WhatsApp%20Image%202026-06-07%20at%2018.01.23%20(1).webp"
+                "image": "/assets/moments/aphp1/WhatsApp%20Image%202026-06-07%20at%2018.01.23%20(1).webp"
             },
             {
                 "title": "Moment 2",
-                "image": "/src/assets/moments/aphp1/WhatsApp%20Image%202026-06-07%20at%2018.01.23%20(2).webp"
+                "image": "/assets/moments/aphp1/WhatsApp%20Image%202026-06-07%20at%2018.01.23%20(2).webp"
             },
             {
                 "title": "Moment 3",
-                "image": "/src/assets/moments/aphp1/WhatsApp%20Image%202026-06-07%20at%2018.01.23.webp"
+                "image": "/assets/moments/aphp1/WhatsApp%20Image%202026-06-07%20at%2018.01.23.webp"
             }
         ],
-        "lastPhotograph": "/src/assets/the_last_photo/aphp1.webp"
+        "lastPhotograph": "/assets/the_last_photo/aphp1.webp"
     },
     {
         "id": "12_aphp_2",
@@ -136,18 +136,18 @@
         "classMoments": [
             {
                 "title": "Moment 1",
-                "image": "/src/assets/moments/aphp2/1.webp"
+                "image": "/assets/moments/aphp2/1.webp"
             },
             {
                 "title": "Moment 2",
-                "image": "/src/assets/moments/aphp2/2.webp"
+                "image": "/assets/moments/aphp2/2.webp"
             },
             {
                 "title": "Moment 3",
-                "image": "/src/assets/moments/aphp2/3.webp"
+                "image": "/assets/moments/aphp2/3.webp"
             }
         ],
-        "lastPhotograph": "/src/assets/the_last_photo/aphp2.webp"
+        "lastPhotograph": "/assets/the_last_photo/aphp2.webp"
     },
     {
         "id": "12_aphp_3",
@@ -156,18 +156,18 @@
         "classMoments": [
             {
                 "title": "Moment 1",
-                "image": "/src/assets/moments/aphp3/IMG_8218.webp"
+                "image": "/assets/moments/aphp3/IMG_8218.webp"
             },
             {
                 "title": "Moment 2",
-                "image": "/src/assets/moments/aphp3/IMG_8219.webp"
+                "image": "/assets/moments/aphp3/IMG_8219.webp"
             },
             {
                 "title": "Moment 3",
-                "image": "/src/assets/moments/aphp3/IMG_8220.webp"
+                "image": "/assets/moments/aphp3/IMG_8220.webp"
             }
         ],
-        "lastPhotograph": "/src/assets/the_last_photo/aphp3.webp"
+        "lastPhotograph": "/assets/the_last_photo/aphp3.webp"
     },
     {
         "id": "12_dkv_1",
@@ -187,7 +187,7 @@
                 "image": ""
             }
         ],
-        "lastPhotograph": "/src/assets/the_last_photo/dkv1.webp"
+        "lastPhotograph": "/assets/the_last_photo/dkv1.webp"
     },
     {
         "id": "12_dkv_2",
@@ -207,7 +207,7 @@
                 "image": ""
             }
         ],
-        "lastPhotograph": "/src/assets/the_last_photo/dkv2.webp"
+        "lastPhotograph": "/assets/the_last_photo/dkv2.webp"
     },
     {
         "id": "12_tkj_1",
@@ -216,18 +216,18 @@
         "classMoments": [
             {
                 "title": "Moment 1",
-                "image": "/src/assets/moments/tkj1/WhatsApp%20Image%202026-06-07%20at%2017.10.27.webp"
+                "image": "/assets/moments/tkj1/WhatsApp%20Image%202026-06-07%20at%2017.10.27.webp"
             },
             {
                 "title": "Moment 2",
-                "image": "/src/assets/moments/tkj1/WhatsApp%20Image%202026-06-07%20at%2017.10.28%20(1).webp"
+                "image": "/assets/moments/tkj1/WhatsApp%20Image%202026-06-07%20at%2017.10.28%20(1).webp"
             },
             {
                 "title": "Moment 3",
-                "image": "/src/assets/moments/tkj1/WhatsApp%20Image%202026-06-07%20at%2017.10.28%20(2).webp"
+                "image": "/assets/moments/tkj1/WhatsApp%20Image%202026-06-07%20at%2017.10.28%20(2).webp"
             }
         ],
-        "lastPhotograph": "/src/assets/the_last_photo/tkj1.webp"
+        "lastPhotograph": "/assets/the_last_photo/tkj1.webp"
     },
     {
         "id": "12_tkj_2",
@@ -236,18 +236,18 @@
         "classMoments": [
             {
                 "title": "Moment 1",
-                "image": "/src/assets/moments/tkj2/WhatsApp%20Image%202026-06-07%20at%2018.03.19%20(1).webp"
+                "image": "/assets/moments/tkj2/WhatsApp%20Image%202026-06-07%20at%2018.03.19%20(1).webp"
             },
             {
                 "title": "Moment 2",
-                "image": "/src/assets/moments/tkj2/WhatsApp%20Image%202026-06-07%20at%2018.03.19.webp"
+                "image": "/assets/moments/tkj2/WhatsApp%20Image%202026-06-07%20at%2018.03.19.webp"
             },
             {
                 "title": "Moment 3",
-                "image": "/src/assets/moments/tkj2/WhatsApp%20Image%202026-06-07%20at%2018.03.20.webp"
+                "image": "/assets/moments/tkj2/WhatsApp%20Image%202026-06-07%20at%2018.03.20.webp"
             }
         ],
-        "lastPhotograph": "/src/assets/the_last_photo/tkj2.webp"
+        "lastPhotograph": "/assets/the_last_photo/tkj2.webp"
     },
     {
         "id": "12_ph_1",
@@ -256,18 +256,18 @@
         "classMoments": [
             {
                 "title": "Moment 1",
-                "image": "/src/assets/moments/ph1/WhatsApp%20Image%202026-06-07%20at%2018.06.51.webp"
+                "image": "/assets/moments/ph1/WhatsApp%20Image%202026-06-07%20at%2018.06.51.webp"
             },
             {
                 "title": "Moment 2",
-                "image": "/src/assets/moments/ph1/WhatsApp%20Image%202026-06-07%20at%2018.06.52%20(1).webp"
+                "image": "/assets/moments/ph1/WhatsApp%20Image%202026-06-07%20at%2018.06.52%20(1).webp"
             },
             {
                 "title": "Moment 3",
-                "image": "/src/assets/moments/ph1/WhatsApp%20Image%202026-06-07%20at%2018.06.52.webp"
+                "image": "/assets/moments/ph1/WhatsApp%20Image%202026-06-07%20at%2018.06.52.webp"
             }
         ],
-        "lastPhotograph": "/src/assets/the_last_photo/ph1.webp"
+        "lastPhotograph": "/assets/the_last_photo/ph1.webp"
     },
     {
         "id": "12_ph_2",
@@ -276,18 +276,18 @@
         "classMoments": [
             {
                 "title": "Moment 1",
-                "image": "/src/assets/moments/ph2/WhatsApp%20Image%202026-06-07%20at%2017.14.47.webp"
+                "image": "/assets/moments/ph2/WhatsApp%20Image%202026-06-07%20at%2017.14.47.webp"
             },
             {
                 "title": "Moment 2",
-                "image": "/src/assets/moments/ph2/WhatsApp%20Image%202026-06-07%20at%2017.14.48%20(1).webp"
+                "image": "/assets/moments/ph2/WhatsApp%20Image%202026-06-07%20at%2017.14.48%20(1).webp"
             },
             {
                 "title": "Moment 3",
-                "image": "/src/assets/moments/ph2/WhatsApp%20Image%202026-06-07%20at%2017.14.48%20(2).webp"
+                "image": "/assets/moments/ph2/WhatsApp%20Image%202026-06-07%20at%2017.14.48%20(2).webp"
             }
         ],
-        "lastPhotograph": "/src/assets/the_last_photo/ph2.webp"
+        "lastPhotograph": "/assets/the_last_photo/ph2.webp"
     },
     {
         "id": "12_tkr_1",
@@ -296,18 +296,18 @@
         "classMoments": [
             {
                 "title": "Moment 1",
-                "image": "/src/assets/moments/tkr1/IMG_8039.webp"
+                "image": "/assets/moments/tkr1/IMG_8039.webp"
             },
             {
                 "title": "Moment 2",
-                "image": "/src/assets/moments/tkr1/IMG_8063.webp"
+                "image": "/assets/moments/tkr1/IMG_8063.webp"
             },
             {
                 "title": "Moment 3",
-                "image": "/src/assets/moments/tkr1/IMG_8072.webp"
+                "image": "/assets/moments/tkr1/IMG_8072.webp"
             }
         ],
-        "lastPhotograph": "/src/assets/the_last_photo/tkr1.webp"
+        "lastPhotograph": "/assets/the_last_photo/tkr1.webp"
     },
     {
         "id": "12_tkr_2",
@@ -316,18 +316,18 @@
         "classMoments": [
             {
                 "title": "Moment 1",
-                "image": "/src/assets/moments/tkr2/IMG_8073.webp"
+                "image": "/assets/moments/tkr2/IMG_8073.webp"
             },
             {
                 "title": "Moment 2",
-                "image": "/src/assets/moments/tkr2/IMG_8076.webp"
+                "image": "/assets/moments/tkr2/IMG_8076.webp"
             },
             {
                 "title": "Moment 3",
-                "image": "/src/assets/moments/tkr2/IMG_8080.webp"
+                "image": "/assets/moments/tkr2/IMG_8080.webp"
             }
         ],
-        "lastPhotograph": "/src/assets/the_last_photo/tkr2.webp"
+        "lastPhotograph": "/assets/the_last_photo/tkr2.webp"
     },
     {
         "id": "12_tpm_1",
@@ -336,18 +336,18 @@
         "classMoments": [
             {
                 "title": "Moment 1",
-                "image": "/src/assets/moments/tpm1/WhatsApp%20Image%202026-06-07%20at%2018.26.11%20(1).webp"
+                "image": "/assets/moments/tpm1/WhatsApp%20Image%202026-06-07%20at%2018.26.11%20(1).webp"
             },
             {
                 "title": "Moment 2",
-                "image": "/src/assets/moments/tpm1/WhatsApp%20Image%202026-06-07%20at%2018.26.11.webp"
+                "image": "/assets/moments/tpm1/WhatsApp%20Image%202026-06-07%20at%2018.26.11.webp"
             },
             {
                 "title": "Moment 3",
-                "image": "/src/assets/moments/tpm1/WhatsApp%20Image%202026-06-07%20at%2018.26.12.webp"
+                "image": "/assets/moments/tpm1/WhatsApp%20Image%202026-06-07%20at%2018.26.12.webp"
             }
         ],
-        "lastPhotograph": "/src/assets/the_last_photo/tpm1.webp"
+        "lastPhotograph": "/assets/the_last_photo/tpm1.webp"
     },
     {
         "id": "12_tpm_2",
@@ -356,18 +356,18 @@
         "classMoments": [
             {
                 "title": "Moment 1",
-                "image": "/src/assets/moments/tpm2/WhatsApp%20Image%202026-06-07%20at%2018.26.11%20(1).webp"
+                "image": "/assets/moments/tpm2/WhatsApp%20Image%202026-06-07%20at%2018.26.11%20(1).webp"
             },
             {
                 "title": "Moment 2",
-                "image": "/src/assets/moments/tpm2/WhatsApp%20Image%202026-06-07%20at%2018.26.11.webp"
+                "image": "/assets/moments/tpm2/WhatsApp%20Image%202026-06-07%20at%2018.26.11.webp"
             },
             {
                 "title": "Moment 3",
-                "image": "/src/assets/moments/tpm2/WhatsApp%20Image%202026-06-07%20at%2018.26.12.webp"
+                "image": "/assets/moments/tpm2/WhatsApp%20Image%202026-06-07%20at%2018.26.12.webp"
             }
         ],
-        "lastPhotograph": "/src/assets/the_last_photo/tpm2.webp"
+        "lastPhotograph": "/assets/the_last_photo/tpm2.webp"
     },
     {
         "id": "12_tsm_1",
@@ -376,18 +376,18 @@
         "classMoments": [
             {
                 "title": "Moment 1",
-                "image": "/src/assets/moments/tsm%201/WhatsApp%20Image%202026-06-07%20at%2018.30.08%20(1).webp"
+                "image": "/assets/moments/tsm%201/WhatsApp%20Image%202026-06-07%20at%2018.30.08%20(1).webp"
             },
             {
                 "title": "Moment 2",
-                "image": "/src/assets/moments/tsm%201/WhatsApp%20Image%202026-06-07%20at%2018.30.08%20(2).webp"
+                "image": "/assets/moments/tsm%201/WhatsApp%20Image%202026-06-07%20at%2018.30.08%20(2).webp"
             },
             {
                 "title": "Moment 3",
-                "image": "/src/assets/moments/tsm%201/WhatsApp%20Image%202026-06-07%20at%2018.30.08.webp"
+                "image": "/assets/moments/tsm%201/WhatsApp%20Image%202026-06-07%20at%2018.30.08.webp"
             }
         ],
-        "lastPhotograph": "/src/assets/the_last_photo/tsm1.webp"
+        "lastPhotograph": "/assets/the_last_photo/tsm1.webp"
     },
     {
         "id": "12_tsm_2",
@@ -396,18 +396,18 @@
         "classMoments": [
             {
                 "title": "Moment 1",
-                "image": "/src/assets/moments/tsm2/WhatsApp%20Image%202026-06-07%20at%2018.29.02%20(1).webp"
+                "image": "/assets/moments/tsm2/WhatsApp%20Image%202026-06-07%20at%2018.29.02%20(1).webp"
             },
             {
                 "title": "Moment 2",
-                "image": "/src/assets/moments/tsm2/WhatsApp%20Image%202026-06-07%20at%2018.29.02%20(2).webp"
+                "image": "/assets/moments/tsm2/WhatsApp%20Image%202026-06-07%20at%2018.29.02%20(2).webp"
             },
             {
                 "title": "Moment 3",
-                "image": "/src/assets/moments/tsm2/WhatsApp%20Image%202026-06-07%20at%2018.29.02.webp"
+                "image": "/assets/moments/tsm2/WhatsApp%20Image%202026-06-07%20at%2018.29.02.webp"
             }
         ],
-        "lastPhotograph": "/src/assets/the_last_photo/tsm2.webp"
+        "lastPhotograph": "/assets/the_last_photo/tsm2.webp"
     },
     {
         "id": "12_mp_1",
@@ -416,18 +416,18 @@
         "classMoments": [
             {
                 "title": "Moment 1",
-                "image": "/src/assets/moments/mp1/WhatsApp%20Image%202026-06-07%20at%2018.16.57%20(1).webp"
+                "image": "/assets/moments/mp1/WhatsApp%20Image%202026-06-07%20at%2018.16.57%20(1).webp"
             },
             {
                 "title": "Moment 2",
-                "image": "/src/assets/moments/mp1/WhatsApp%20Image%202026-06-07%20at%2018.16.57.webp"
+                "image": "/assets/moments/mp1/WhatsApp%20Image%202026-06-07%20at%2018.16.57.webp"
             },
             {
                 "title": "Moment 3",
-                "image": "/src/assets/moments/mp1/WhatsApp%20Image%202026-06-07%20at%2018.16.58.webp"
+                "image": "/assets/moments/mp1/WhatsApp%20Image%202026-06-07%20at%2018.16.58.webp"
             }
         ],
-        "lastPhotograph": "/src/assets/the_last_photo/mp1.webp"
+        "lastPhotograph": "/assets/the_last_photo/mp1.webp"
     },
     {
         "id": "12_mp_2",
@@ -436,17 +436,17 @@
         "classMoments": [
             {
                 "title": "Moment 1",
-                "image": "/src/assets/moments/mp2/WhatsApp%20Image%202026-06-07%20at%2018.15.44%20(1).webp"
+                "image": "/assets/moments/mp2/WhatsApp%20Image%202026-06-07%20at%2018.15.44%20(1).webp"
             },
             {
                 "title": "Moment 2",
-                "image": "/src/assets/moments/mp2/WhatsApp%20Image%202026-06-07%20at%2018.15.44.webp"
+                "image": "/assets/moments/mp2/WhatsApp%20Image%202026-06-07%20at%2018.15.44.webp"
             },
             {
                 "title": "Moment 3",
-                "image": "/src/assets/moments/mp2/WhatsApp%20Image%202026-06-07%20at%2018.15.45.webp"
+                "image": "/assets/moments/mp2/WhatsApp%20Image%202026-06-07%20at%2018.15.45.webp"
             }
         ],
-        "lastPhotograph": "/src/assets/the_last_photo/mp2.webp"
+        "lastPhotograph": "/assets/the_last_photo/mp2.webp"
     }
 ]

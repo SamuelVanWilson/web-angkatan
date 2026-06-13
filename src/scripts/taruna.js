@@ -14,7 +14,7 @@ export async function initTarunaPage() {
   }
 
   try {
-    const response = await fetch('/src/data/taruna.json');
+    const response = await fetch('/data/taruna.json');
     const allData = await response.json();
     const data = allData.find(item => item.id === yearId);
 

@@ -35,7 +35,7 @@ export async function initYearbook() {
 
         // Fetch ALL yearbook data from the single source of truth
         try {
-            const response = await fetch('/src/data/yearbook.json');
+            const response = await fetch('/data/yearbook.json');
             const allYearbooks = await response.json();
 
             let targetData = null;
@@ -48,7 +48,7 @@ export async function initYearbook() {
                 if (!targetData) {
                     console.warn(`Class ${classId} not found in yearbook.json, checking kelas.json fallback...`);
                     try {
-                        const classRes = await fetch('/src/data/kelas.json');
+                        const classRes = await fetch('/data/kelas.json');
                         const classJson = await classRes.json();
                         const legacyData = classJson.find(item => item.id === classId);
                         if (legacyData && (legacyData.yearbookPages || legacyData.yearbookImages)) {

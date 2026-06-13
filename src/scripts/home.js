@@ -139,7 +139,7 @@ function openYearModal() {
 
     // Load Data if not already loaded
     if (!yearModalState.dataLoaded && container) {
-        fetch('/src/data/taruna.json')
+        fetch('/data/taruna.json')
             .then(res => res.json())
             .then(data => {
                 renderYearOptions(data, container);
@@ -242,7 +242,7 @@ function openClassModal() {
 
     // Load Data if not already loaded
     if (!classModalState.dataLoaded && container) {
-        fetch('/src/data/kelas.json')
+        fetch('/data/kelas.json')
             .then(res => res.json())
             .then(data => {
                 classModalState.allData = data;

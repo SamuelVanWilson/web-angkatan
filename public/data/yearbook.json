@@ -1,0 +1,277 @@
+[
+    {
+        "id": "angkatan_20",
+        "label": "Yearbook Angkatan 20",
+        "pages": [
+            "/assets/yb-school/1.webp",
+            "/assets/yb-school/2.webp",
+            "/assets/yb-school/3.webp",
+            "/assets/yb-school/4.webp",
+            "/assets/yb-school/5.webp",
+            "/assets/yb-school/6.webp"
+        ]
+    },
+    {
+        "id": "12_ak_1",
+        "label": "12 AK 1",
+        "pages": [
+            "/assets/yb-kelas/ak/1.webp",
+            "/assets/yb-kelas/ak/2.webp",
+            "/assets/yb-kelas/ak/3.webp",
+            "/assets/yb-kelas/ak/4.webp",
+            "/assets/yb-kelas/ak/5.webp",
+            "/assets/yb-kelas/ak/6.webp"
+        ]
+    },
+    {
+        "id": "12_ak_2",
+        "label": "12 AK 2",
+        "pages": [
+            "/assets/yb-kelas/ak 2/1.webp",
+            "/assets/yb-kelas/ak 2/2.webp",
+            "/assets/yb-kelas/ak 2/3.webp",
+            "/assets/yb-kelas/ak 2/4.webp",
+            "/assets/yb-kelas/ak 2/5.webp",
+            "/assets/yb-kelas/ak 2/6.webp"
+        ]
+    },
+    {
+        "id": "12_ak_3",
+        "label": "12 AK 3",
+        "pages": [
+            "/assets/yb-kelas/ak 3/1.webp",
+            "/assets/yb-kelas/ak 3/2.webp",
+            "/assets/yb-kelas/ak 3/3.webp",
+            "/assets/yb-kelas/ak 3/4.webp",
+            "/assets/yb-kelas/ak 3/5.webp",
+            "/assets/yb-kelas/ak 3/6.webp"
+        ]
+    },
+    {
+        "id": "12_aphp_1",
+        "label": "12 APHP 1",
+        "pages": [
+            "/assets/yb-kelas/aphp/1.webp",
+            "/assets/yb-kelas/aphp/2.webp",
+            "/assets/yb-kelas/aphp/3.webp",
+            "/assets/yb-kelas/aphp/4.webp",
+            "/assets/yb-kelas/aphp/5.webp",
+            "/assets/yb-kelas/aphp/6.webp"
+        ]
+    },
+    {
+        "id": "12_aphp_2",
+        "label": "12 APHP 2",
+        "pages": [
+            "/assets/yb-kelas/aphp 2/1.webp",
+            "/assets/yb-kelas/aphp 2/2.webp",
+            "/assets/yb-kelas/aphp 2/3.webp",
+            "/assets/yb-kelas/aphp 2/4.webp",
+            "/assets/yb-kelas/aphp 2/5.webp",
+            "/assets/yb-kelas/aphp 2/6.webp"
+        ]
+    },
+    {
+        "id": "12_aphp_3",
+        "label": "12 APHP 3",
+        "pages": [
+            "/assets/yb-kelas/aphp 3/1.webp",
+            "/assets/yb-kelas/aphp 3/2.webp",
+            "/assets/yb-kelas/aphp 3/3.webp",
+            "/assets/yb-kelas/aphp 3/4.webp",
+            "/assets/yb-kelas/aphp 3/5.webp",
+            "/assets/yb-kelas/aphp 3/6.webp"
+        ]
+    },
+    {
+        "id": "12_dkv_1",
+        "label": "12 DKV 1",
+        "pages": [
+            "/assets/yb-kelas/dkv/1.webp",
+            "/assets/yb-kelas/dkv/2.webp",
+            "/assets/yb-kelas/dkv/3.webp",
+            "/assets/yb-kelas/dkv/4.webp",
+            "/assets/yb-kelas/dkv/5.webp",
+            "/assets/yb-kelas/dkv/6.webp"
+        ]
+    },
+    {
+        "id": "12_dkv_2",
+        "label": "12 DKV 2",
+        "pages": [
+            "/assets/yb-kelas/dkv 2/1.webp",
+            "/assets/yb-kelas/dkv 2/2.webp",
+            "/assets/yb-kelas/dkv 2/3.webp",
+            "/assets/yb-kelas/dkv 2/4.webp",
+            "/assets/yb-kelas/dkv 2/5.webp",
+            "/assets/yb-kelas/dkv 2/6.webp"
+        ]
+    },
+    {
+        "id": "12_mp_1",
+        "label": "12 MP 1",
+        "pages": [
+            "/assets/yb-kelas/mp/1.webp",
+            "/assets/yb-kelas/mp/2.webp",
+            "/assets/yb-kelas/mp/3.webp",
+            "/assets/yb-kelas/mp/4.webp",
+            "/assets/yb-kelas/mp/5.webp",
+            "/assets/yb-kelas/mp/6.webp"
+        ]
+    },
+    {
+        "id": "12_mp_2",
+        "label": "12 MP 2",
+        "pages": [
+            "/assets/yb-kelas/mp 2/1.webp",
+            "/assets/yb-kelas/mp 2/2.webp",
+            "/assets/yb-kelas/mp 2/3.webp",
+            "/assets/yb-kelas/mp 2/4.webp",
+            "/assets/yb-kelas/mp 2/5.webp",
+            "/assets/yb-kelas/mp 2/6.webp"
+        ]
+    },
+    {
+        "id": "12_ph_1",
+        "label": "12 PH 1",
+        "pages": [
+            "/assets/yb-kelas/ph/1.webp",
+            "/assets/yb-kelas/ph/2.webp",
+            "/assets/yb-kelas/ph/3.webp",
+            "/assets/yb-kelas/ph/4.webp",
+            "/assets/yb-kelas/ph/5.webp",
+            "/assets/yb-kelas/ph/6.webp"
+        ]
+    },
+    {
+        "id": "12_ph_2",
+        "label": "12 PH 2",
+        "pages": [
+            "/assets/yb-kelas/ph2/1.webp",
+            "/assets/yb-kelas/ph2/2.webp",
+            "/assets/yb-kelas/ph2/3.webp",
+            "/assets/yb-kelas/ph2/4.webp",
+            "/assets/yb-kelas/ph2/5.webp",
+            "/assets/yb-kelas/ph2/6.webp"
+        ]
+    },
+    {
+        "id": "12_rpl_1",
+        "label": "12 RPL 1",
+        "pages": [
+            "/assets/yb-kelas/rpl/1.webp",
+            "/assets/yb-kelas/rpl/2.webp",
+            "/assets/yb-kelas/rpl/3.webp",
+            "/assets/yb-kelas/rpl/4.webp",
+            "/assets/yb-kelas/rpl/5.webp",
+            "/assets/yb-kelas/rpl/6.webp"
+        ]
+    },
+    {
+        "id": "12_rpl_2",
+        "label": "12 RPL 2",
+        "pages": [
+            "/assets/yb-kelas/rpl 2/1.webp",
+            "/assets/yb-kelas/rpl 2/2.webp",
+            "/assets/yb-kelas/rpl 2/3.webp",
+            "/assets/yb-kelas/rpl 2/4.webp",
+            "/assets/yb-kelas/rpl 2/5.webp",
+            "/assets/yb-kelas/rpl 2/6.webp"
+        ]
+    },
+    {
+        "id": "12_tkj_1",
+        "label": "12 TKJ 1",
+        "pages": [
+            "/assets/yb-kelas/tkj/1.webp",
+            "/assets/yb-kelas/tkj/2.webp",
+            "/assets/yb-kelas/tkj/3.webp",
+            "/assets/yb-kelas/tkj/4.webp",
+            "/assets/yb-kelas/tkj/5.webp",
+            "/assets/yb-kelas/tkj/6.webp"
+        ]
+    },
+    {
+        "id": "12_tkj_2",
+        "label": "12 TKJ 2",
+        "pages": [
+            "/assets/yb-kelas/tkj 2/1.webp",
+            "/assets/yb-kelas/tkj 2/2.webp",
+            "/assets/yb-kelas/tkj 2/3.webp",
+            "/assets/yb-kelas/tkj 2/4.webp",
+            "/assets/yb-kelas/tkj 2/5.webp",
+            "/assets/yb-kelas/tkj 2/6.webp"
+        ]
+    },
+    {
+        "id": "12_tkr_1",
+        "label": "12 TKR 1",
+        "pages": [
+            "/assets/yb-kelas/tkr/1.webp",
+            "/assets/yb-kelas/tkr/2.webp",
+            "/assets/yb-kelas/tkr/3.webp",
+            "/assets/yb-kelas/tkr/4.webp",
+            "/assets/yb-kelas/tkr/5.webp",
+            "/assets/yb-kelas/tkr/6.webp"
+        ]
+    },
+    {
+        "id": "12_tkr_2",
+        "label": "12 TKR 2",
+        "pages": [
+            "/assets/yb-kelas/tkr 2/1.webp",
+            "/assets/yb-kelas/tkr 2/2.webp",
+            "/assets/yb-kelas/tkr 2/3.webp",
+            "/assets/yb-kelas/tkr 2/4.webp",
+            "/assets/yb-kelas/tkr 2/5.webp",
+            "/assets/yb-kelas/tkr 2/6.webp"
+        ]
+    },
+    {
+        "id": "12_tpm_1",
+        "label": "12 TPM 1",
+        "pages": [
+            "/assets/yb-kelas/tpm 1/1.webp",
+            "/assets/yb-kelas/tpm 1/2.webp",
+            "/assets/yb-kelas/tpm 1/3.webp",
+            "/assets/yb-kelas/tpm 1/4.webp",
+            "/assets/yb-kelas/tpm 1/5.webp",
+            "/assets/yb-kelas/tpm 1/6.webp"
+        ]
+    },
+    {
+        "id": "12_tpm_2",
+        "label": "12 TPM 2",
+        "pages": [
+            "/assets/yb-kelas/tpm 2/1.webp",
+            "/assets/yb-kelas/tpm 2/2.webp",
+            "/assets/yb-kelas/tpm 2/3.webp",
+            "/assets/yb-kelas/tpm 2/4.webp",
+            "/assets/yb-kelas/tpm 2/5.webp",
+            "/assets/yb-kelas/tpm 2/6.webp"
+        ]
+    },
+    {
+        "id": "12_tsm_1",
+        "label": "12 TSM 1",
+        "pages": [
+            "/assets/yb-kelas/tsm 1/1.webp",
+            "/assets/yb-kelas/tsm 1/2.webp",
+            "/assets/yb-kelas/tsm 1/3.webp",
+            "/assets/yb-kelas/tsm 1/4.webp",
+            "/assets/yb-kelas/tsm 1/5.webp",
+            "/assets/yb-kelas/tsm 1/6.webp"
+        ]
+    },
+    {
+        "id": "12_tsm_2",
+        "label": "12 TSM 2",
+        "pages": [
+            "/assets/yb-kelas/tsm 2/1.webp",
+            "/assets/yb-kelas/tsm 2/2.webp",
+            "/assets/yb-kelas/tsm 2/3.webp",
+            "/assets/yb-kelas/tsm 2/4.webp",
+            "/assets/yb-kelas/tsm 2/5.webp"
+        ]
+    }
+]

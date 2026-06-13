@@ -18,7 +18,7 @@ export async function initKelasPage() {
   }
 
   try {
-    const response = await fetch('/src/data/kelas.json');
+    const response = await fetch('/data/kelas.json');
     const allData = await response.json();
     const data = allData.find(item => item.id === classId);
 

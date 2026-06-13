@@ -11,7 +11,7 @@ let navbarCleanup = null;
 
 async function loadPage(pageName) {
     try {
-        const response = await fetch(`/src/pages/${pageName}.html`);
+        const response = await fetch(`/pages/${pageName}.html`);
         if (!response.ok) throw new Error(`Failed to load ${pageName}`);
 
         const html = await response.text();
