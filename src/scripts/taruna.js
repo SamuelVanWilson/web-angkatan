@@ -1,3 +1,5 @@
+import { resolvePath } from '../utils.js';
+
 export async function initTarunaPage() {
   const urlParams = new URLSearchParams(window.location.search);
   const yearId = urlParams.get('year');
@@ -14,7 +16,7 @@ export async function initTarunaPage() {
   }
 
   try {
-    const response = await fetch('/data/taruna.json');
+    const response = await fetch(resolvePath('/data/taruna.json'));
     const allData = await response.json();
     const data = allData.find(item => item.id === yearId);
 
@@ -52,9 +54,9 @@ function renderPage(data) {
   const highlightsContainer = document.getElementById('highlights-container');
   if (highlightsContainer && data.highlights) {
     highlightsContainer.innerHTML = data.highlights.map((item, index) => `
-      <div class="shrink-0 w-[280px] md:w-[320px] aspect-square bg-gray-100 rounded-xl overflow-hidden group snap-center relative cursor-pointer" data-lightbox-src="${item.image || ''}">
+      <div class="shrink-0 w-[280px] md:w-[320px] aspect-square bg-gray-100 rounded-xl overflow-hidden group snap-center relative cursor-pointer" data-lightbox-src="${item.image ? resolvePath(item.image) : ''}">
         ${item.image ? `
-          <img src="${item.image}" alt="${item.title}" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+          <img src="${resolvePath(item.image)}" alt="${item.title}" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
         ` : `
           <div class="w-full h-full flex items-center justify-center bg-gray-200 text-gray-400">
             <svg class="w-12 h-12" fill="currentColor" viewBox="0 0 24 24">
@@ -98,9 +100,9 @@ function renderPage(data) {
     // Mobile: Horizontal scroll cards
     if (kompiContainerMobile) {
       kompiContainerMobile.innerHTML = data.kompi.map((kompi, index) => `
-        <div class="shrink-0 w-[260px] h-[320px] bg-gray-900 rounded-xl overflow-hidden group snap-center relative ring-1 ring-white/10 hover:ring-white/20 transition-all cursor-pointer" data-lightbox-src="${kompi.image || ''}">
+        <div class="shrink-0 w-[260px] h-[320px] bg-gray-900 rounded-xl overflow-hidden group snap-center relative ring-1 ring-white/10 hover:ring-white/20 transition-all cursor-pointer" data-lightbox-src="${kompi.image ? resolvePath(kompi.image) : ''}">
           ${kompi.image ? `
-            <img src="${kompi.image}" alt="${kompi.name}" class="absolute inset-0 w-full h-full object-cover opacity-60 group-hover:opacity-40 transition-opacity duration-500">
+            <img src="${resolvePath(kompi.image)}" alt="${kompi.name}" class="absolute inset-0 w-full h-full object-cover opacity-60 group-hover:opacity-40 transition-opacity duration-500">
           ` : `
             <div class="absolute inset-0 bg-gray-800"></div>
           `}
@@ -137,8 +139,8 @@ function renderPage(data) {
       if (data.kompi.length >= 5) {
         // Helper to create card
         const createCard = (kompi, className = "") => `
-          <div class="${className} bg-gray-900 rounded-2xl overflow-hidden group relative ring-1 ring-white/10 hover:ring-white/20 transition-all cursor-pointer" data-lightbox-src="${kompi.image || ''}">
-            ${kompi.image ? `<img src="${kompi.image}" alt="${kompi.name}" class="absolute inset-0 w-full h-full object-cover opacity-60 group-hover:opacity-40 transition-opacity duration-500">` : `<div class="absolute inset-0 bg-gray-800"></div>`}
+          <div class="${className} bg-gray-900 rounded-2xl overflow-hidden group relative ring-1 ring-white/10 hover:ring-white/20 transition-all cursor-pointer" data-lightbox-src="${kompi.image ? resolvePath(kompi.image) : ''}">
+            ${kompi.image ? `<img src="${resolvePath(kompi.image)}" alt="${kompi.name}" class="absolute inset-0 w-full h-full object-cover opacity-60 group-hover:opacity-40 transition-opacity duration-500">` : `<div class="absolute inset-0 bg-gray-800"></div>`}
             <div class="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent"></div>
             <div class="absolute inset-0 p-6 flex flex-col justify-end">
               <div class="transform translate-y-2 group-hover:translate-y-0 transition-transform duration-500">

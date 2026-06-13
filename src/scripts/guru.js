@@ -1,3 +1,5 @@
+import { resolvePath } from '../utils.js';
+
 export async function initGuruPage() {
   const container = document.getElementById('guru-container');
   const searchInput = document.getElementById('guru-search');
@@ -9,7 +11,7 @@ export async function initGuruPage() {
   // Fetch Data
   let guruData = [];
   try {
-    const response = await fetch('/data/guru.json');
+    const response = await fetch(resolvePath('/data/guru.json'));
     guruData = await response.json();
   } catch (error) {
     console.error("Failed to load guru data", error);

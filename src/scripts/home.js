@@ -1,3 +1,5 @@
+import { resolvePath } from '../utils.js';
+
 // Navbar Logic (Shared)
 export function initNavbar() {
     const navbar = document.getElementById('landing-navbar');
@@ -139,7 +141,7 @@ function openYearModal() {
 
     // Load Data if not already loaded
     if (!yearModalState.dataLoaded && container) {
-        fetch('/data/taruna.json')
+        fetch(resolvePath('/data/taruna.json'))
             .then(res => res.json())
             .then(data => {
                 renderYearOptions(data, container);
@@ -242,7 +244,7 @@ function openClassModal() {
 
     // Load Data if not already loaded
     if (!classModalState.dataLoaded && container) {
-        fetch('/data/kelas.json')
+        fetch(resolvePath('/data/kelas.json'))
             .then(res => res.json())
             .then(data => {
                 classModalState.allData = data;

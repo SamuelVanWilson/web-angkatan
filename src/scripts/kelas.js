@@ -1,3 +1,5 @@
+import { resolvePath } from '../utils.js';
+
 export async function initKelasPage() {
   const urlParams = new URLSearchParams(window.location.search);
   const classId = urlParams.get('class');
@@ -18,7 +20,7 @@ export async function initKelasPage() {
   }
 
   try {
-    const response = await fetch('/data/kelas.json');
+    const response = await fetch(resolvePath('/data/kelas.json'));
     const allData = await response.json();
     const data = allData.find(item => item.id === classId);
 
@@ -67,9 +69,9 @@ function renderPage(data) {
   const momentsContainer = document.getElementById('class-moments-container');
   if (momentsContainer && data.classMoments) {
     momentsContainer.innerHTML = data.classMoments.map((item, index) => `
-          <div class="shrink-0 w-[280px] md:w-[320px] aspect-[3/4] bg-gray-100 rounded-xl flex items-center justify-center text-gray-300 hover:bg-gray-200 transition-colors cursor-pointer overflow-hidden group snap-center relative" data-lightbox-src="${item.image || ''}">
+          <div class="shrink-0 w-[280px] md:w-[320px] aspect-[3/4] bg-gray-100 rounded-xl flex items-center justify-center text-gray-300 hover:bg-gray-200 transition-colors cursor-pointer overflow-hidden group snap-center relative" data-lightbox-src="${item.image ? resolvePath(item.image) : ''}">
             ${item.image ? `
-              <img src="${item.image}" alt="${item.title}" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+              <img src="${resolvePath(item.image)}" alt="${item.title}" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
               <!-- Click Indicator -->
               <div class="absolute inset-0 bg-black/0 group-hover:bg-black/30 transition-all duration-300 flex items-center justify-center">
                 <div class="opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-white/20 backdrop-blur-md rounded-full p-3">
@@ -103,10 +105,10 @@ function renderPage(data) {
   if (lastPhotoContainer) {
     if (data.lastPhotograph) {
       lastPhotoContainer.innerHTML = `
-              <img src="${data.lastPhotograph}" alt="The Last Photograph" class="w-full h-full object-cover cursor-pointer hover:brightness-90 transition-all duration-300" data-lightbox-src="${data.lastPhotograph}">
+              <img src="${resolvePath(data.lastPhotograph)}" alt="The Last Photograph" class="w-full h-full object-cover cursor-pointer hover:brightness-90 transition-all duration-300" data-lightbox-src="${resolvePath(data.lastPhotograph)}">
             `;
       // Add click handler
-      lastPhotoContainer.querySelector('[data-lightbox-src]').addEventListener('click', () => openLightbox(data.lastPhotograph, false));
+      lastPhotoContainer.querySelector('[data-lightbox-src]').addEventListener('click', () => openLightbox(resolvePath(data.lastPhotograph), false));
     } else {
       lastPhotoContainer.innerHTML = `
               <svg class="w-16 h-16 md:w-24 md:h-24 text-gray-400" fill="currentColor" viewBox="0 0 24 24">

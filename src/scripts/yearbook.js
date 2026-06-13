@@ -1,5 +1,6 @@
 import { PageFlip } from 'page-flip/dist/js/page-flip.module.js';
 import gsap from 'gsap';
+import { resolvePath } from '../utils.js';
 
 document.addEventListener('DOMContentLoaded', () => {
     initYearbook();
@@ -35,7 +36,7 @@ export async function initYearbook() {
 
         // Fetch ALL yearbook data from the single source of truth
         try {
-            const response = await fetch('/data/yearbook.json');
+            const response = await fetch(resolvePath('/data/yearbook.json'));
             const allYearbooks = await response.json();
 
             let targetData = null;
@@ -48,7 +49,7 @@ export async function initYearbook() {
                 if (!targetData) {
                     console.warn(`Class ${classId} not found in yearbook.json, checking kelas.json fallback...`);
                     try {
-                        const classRes = await fetch('/data/kelas.json');
+                        const classRes = await fetch(resolvePath('/data/kelas.json'));
                         const classJson = await classRes.json();
                         const legacyData = classJson.find(item => item.id === classId);
                         if (legacyData && (legacyData.yearbookPages || legacyData.yearbookImages)) {
@@ -293,7 +294,7 @@ function generatePagesFromImages(images) {
         html += `
         <div class="page" data-density="${density}">
             <div class="page-content bg-transparent w-full h-full m-0 overflow-hidden flex items-center justify-center p-0" style="padding: 0 !important; background-color: transparent !important;">
-                <img src="${imgUrl}" class="w-full h-full block object-cover" style="min-width: 100%; min-height: 100%; width: 100%; height: 100%; object-fit: fill;" loading="lazy" alt="Page ${index + 1}">
+                <img src="${resolvePath(imgUrl)}" class="w-full h-full block object-cover" style="min-width: 100%; min-height: 100%; width: 100%; height: 100%; object-fit: fill;" loading="lazy" alt="Page ${index + 1}">
             </div>
         </div>
         `;

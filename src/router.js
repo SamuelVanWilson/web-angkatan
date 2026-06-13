@@ -1,4 +1,5 @@
 import Navigo from 'navigo';
+import { resolvePath, fixAssetPaths } from './utils.js';
 import { initHeroCarousel, initNavbar } from './scripts/home.js';
 import { initPanitiaPage } from './scripts/panitia.js';
 import { initKelasPage } from './scripts/kelas.js';
@@ -11,7 +12,7 @@ let navbarCleanup = null;
 
 async function loadPage(pageName) {
     try {
-        const response = await fetch(`/pages/${pageName}.html`);
+        const response = await fetch(resolvePath(`/pages/${pageName}.html`));
         if (!response.ok) throw new Error(`Failed to load ${pageName}`);
 
         const html = await response.text();
@@ -22,6 +23,7 @@ async function loadPage(pageName) {
 
         // Update the container with the new content
         appContainer.innerHTML = bodyContent;
+        fixAssetPaths(appContainer);
 
         // Cleanup previous cleanups
         if (pageCleanup) {
@@ -100,7 +102,7 @@ export function initRouter() {
     }
 
     // Initialize the router
-    router = new Navigo('/', { hash: false });
+    router = new Navigo(import.meta.env.BASE_URL, { hash: false });
 
     // Define routes
     router

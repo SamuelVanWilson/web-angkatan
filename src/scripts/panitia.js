@@ -1,3 +1,5 @@
+import { resolvePath } from '../utils.js';
+
 export async function initPanitiaPage() {
   const container = document.getElementById('panitia-container');
   const searchInput = document.getElementById('panitia-search');
@@ -9,7 +11,7 @@ export async function initPanitiaPage() {
   // Fetch Data
   let panitiaData = [];
   try {
-    const response = await fetch('/data/panitia.json');
+    const response = await fetch(resolvePath('/data/panitia.json'));
     panitiaData = await response.json();
   } catch (error) {
     console.error("Failed to load panitia data", error);
@@ -201,7 +203,7 @@ export async function initPanitiaPage() {
     const initials = item.name.substring(0, 2).toUpperCase();
     const instagramHandle = item.instagram ? item.instagram.replace('@', '') : '';
     const imageHTML = item.image 
-        ? `<img src="${item.image}" alt="${item.name}" class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" loading="lazy">`
+        ? `<img src="${resolvePath(item.image)}" alt="${item.name}" class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" loading="lazy">`
         : `<div class="absolute inset-0 bg-gradient-to-tr from-gray-100 to-gray-50 flex items-center justify-center text-4xl font-bold text-gray-300 group-hover:scale-110 transition-transform duration-500">${initials}</div>`;
 
     const CardTag = instagramHandle ? 'a' : 'div';
