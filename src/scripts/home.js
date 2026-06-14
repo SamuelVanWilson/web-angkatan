@@ -62,24 +62,34 @@ export function initHeroCarousel() {
     // --- Smart Video Loaders ---
     const smartVideos = document.querySelectorAll('.smart-video');
     smartVideos.forEach(video => {
+        let isLoaded = false;
         const handleLoaded = () => {
+            if (isLoaded) return;
+            isLoaded = true;
+            
             // Sembunyikan loader UI
             const loader = video.previousElementSibling;
             if (loader && loader.classList.contains('video-loader')) {
                 loader.classList.add('opacity-0');
+                // Optional: remove after fade out
+                setTimeout(() => loader.remove(), 500);
             }
             // Trigger tailwind CSS data-[loaded=true] untuk transisi opacity
             video.setAttribute('data-loaded', 'true');
         };
 
-        if (video.readyState >= 3) {
+        if (video.readyState >= 2) { // HAVE_CURRENT_DATA (first frame available)
             // Video sudah siap
             handleLoaded();
         } else {
-            // Tunggu sampai video bisa diputar
+            // Tunggu sampai video mendapatkan frame pertama atau bisa diputar
+            video.addEventListener('loadeddata', handleLoaded, { once: true });
             video.addEventListener('canplay', handleLoaded, { once: true });
             video.addEventListener('playing', handleLoaded, { once: true });
         }
+        
+        // Failsafe: Jika koneksi sangat lambat atau error, paksa tampilkan setelah 5 detik
+        setTimeout(handleLoaded, 5000);
     });
 
     // --- Explore Sliders ---
