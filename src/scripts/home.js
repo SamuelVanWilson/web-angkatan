@@ -59,6 +59,29 @@ export function initHeroCarousel() {
         intervals.push(heroInterval);
     }
 
+    // --- Smart Video Loaders ---
+    const smartVideos = document.querySelectorAll('.smart-video');
+    smartVideos.forEach(video => {
+        const handleLoaded = () => {
+            // Sembunyikan loader UI
+            const loader = video.previousElementSibling;
+            if (loader && loader.classList.contains('video-loader')) {
+                loader.classList.add('opacity-0');
+            }
+            // Trigger tailwind CSS data-[loaded=true] untuk transisi opacity
+            video.setAttribute('data-loaded', 'true');
+        };
+
+        if (video.readyState >= 3) {
+            // Video sudah siap
+            handleLoaded();
+        } else {
+            // Tunggu sampai video bisa diputar
+            video.addEventListener('canplay', handleLoaded, { once: true });
+            video.addEventListener('playing', handleLoaded, { once: true });
+        }
+    });
+
     // --- Explore Sliders ---
     const exploreSliders = document.querySelectorAll('.explore-slider');
     exploreSliders.forEach(slider => {
