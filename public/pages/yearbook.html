@@ -90,24 +90,30 @@
         </div>
 
         <!-- Controls (Enhanced) -->
-        <div class="fixed bottom-6 md:bottom-8 left-1/2 -translate-x-1/2 z-40 flex gap-3 md:gap-4 pointer-events-auto opacity-0 transition-opacity duration-500"
+        <div class="fixed bottom-6 md:bottom-8 left-1/2 -translate-x-1/2 z-40 flex flex-col items-center gap-3 pointer-events-auto opacity-0 transition-opacity duration-500"
             id="book-controls">
-            <button id="prev-btn"
-                class="p-3 md:p-4 bg-white/10 backdrop-blur-md rounded-full text-white hover:bg-white/20 transition-all border border-white/20 hover:scale-110 hover:border-white/30 active:scale-95 shadow-lg">
-                <svg class="w-5 h-5 md:w-6 md:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M15 19l-7-7 7-7"></path>
-                </svg>
-            </button>
-            <div
-                class="px-5 md:px-6 py-3 md:py-4 bg-gradient-to-r from-white/10 to-white/5 backdrop-blur-md rounded-full text-white border border-white/20 font-mono text-sm md:text-base flex items-center shadow-lg min-w-[100px] md:min-w-[120px] justify-center">
-                <span id="page-num" class="font-semibold">Cover</span>
+            <div class="flex gap-3 md:gap-4">
+                <button id="prev-btn"
+                    class="p-3 md:p-4 bg-white/10 backdrop-blur-md rounded-full text-white hover:bg-white/20 transition-all border border-white/20 hover:scale-110 hover:border-white/30 active:scale-95 shadow-lg">
+                    <svg class="w-5 h-5 md:w-6 md:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M15 19l-7-7 7-7"></path>
+                    </svg>
+                </button>
+                <div
+                    class="px-5 md:px-6 py-3 md:py-4 bg-gradient-to-r from-white/10 to-white/5 backdrop-blur-md rounded-full text-white border border-white/20 font-mono text-sm md:text-base flex items-center shadow-lg min-w-[100px] md:min-w-[120px] justify-center">
+                    <span id="page-num" class="font-semibold">Cover</span>
+                </div>
+                <button id="next-btn"
+                    class="p-3 md:p-4 bg-white/10 backdrop-blur-md rounded-full text-white hover:bg-white/20 transition-all border border-white/20 hover:scale-110 hover:border-white/30 active:scale-95 shadow-lg">
+                    <svg class="w-5 h-5 md:w-6 md:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"></path>
+                    </svg>
+                </button>
             </div>
-            <button id="next-btn"
-                class="p-3 md:p-4 bg-white/10 backdrop-blur-md rounded-full text-white hover:bg-white/20 transition-all border border-white/20 hover:scale-110 hover:border-white/30 active:scale-95 shadow-lg">
-                <svg class="w-5 h-5 md:w-6 md:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"></path>
-                </svg>
-            </button>
+            <!-- Zoom Hint -->
+            <p class="text-white/70 text-[10px] md:text-xs font-light tracking-wide bg-black/30 px-4 py-1.5 rounded-full backdrop-blur-md border border-white/10 shadow-lg text-center animate-fade-in-up">
+                💡 Cubit layar atau double-tap foto untuk zoom detail
+            </p>
         </div>
 
     </main>
