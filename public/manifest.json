@@ -2,14 +2,14 @@
     "name": "Angkatan 20 - SMKN 5 Kab. Tangerang",
     "short_name": "ANTASERIN",
     "description": "Digital Yearbook Angkatan 20 SMKN 5 Kabupaten Tangerang",
-    "start_url": "/web-angkatan/",
+    "start_url": "/",
     "display": "standalone",
     "background_color": "#000000",
     "theme_color": "#000000",
     "orientation": "any",
     "icons": [
         {
-            "src": "/web-angkatan/assets/logo.webp",
+            "src": "/assets/logo.webp",
             "sizes": "any",
             "type": "image/webp",
             "purpose": "any"

@@ -11,9 +11,9 @@ const DATA_CACHE = `antaserin-data-${CACHE_VERSION}`;
 
 // Aset statis yang akan di-cache saat install
 const PRECACHE_ASSETS = [
-    '/web-angkatan/',
-    '/web-angkatan/index.html',
-    '/web-angkatan/assets/logo.webp'
+    '/',
+    '/index.html',
+    '/assets/logo.webp'
 ];
 
 // ---- INSTALL: Pre-cache aset statis ----
