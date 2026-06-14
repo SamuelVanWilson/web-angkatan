@@ -48,6 +48,16 @@ export function initNavbar() {
 export function initHeroCarousel() {
     const intervals = [];
 
+    // --- Hide Loader ---
+    const loader = document.getElementById('landing-loader');
+    if (loader) {
+        // Small delay to ensure images start rendering
+        setTimeout(() => {
+            loader.classList.add('opacity-0');
+            setTimeout(() => loader.remove(), 700);
+        }, 800);
+    }
+
     // --- Hero Slider ---
     const heroSlides = document.querySelectorAll('.hero-slide');
     if (heroSlides.length > 0) {

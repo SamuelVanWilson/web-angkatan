@@ -1,4 +1,14 @@
 <div class="min-h-screen bg-white font-sans relative">
+  
+  <!-- Landing Page Loading Overlay -->
+  <div id="landing-loader" class="fixed inset-0 z-[100] bg-black flex flex-col items-center justify-center transition-opacity duration-700">
+    <div class="relative mb-6">
+      <div class="w-12 h-12 md:w-16 md:h-16 border-4 border-blue-500 border-t-transparent rounded-full animate-spin"></div>
+      <div class="absolute inset-0 w-12 h-12 md:w-16 md:h-16 border-4 border-white/10 rounded-full"></div>
+    </div>
+    <h2 class="text-white text-lg md:text-xl font-bold tracking-widest uppercase animate-pulse">Menyiapkan Memori</h2>
+    <p class="text-gray-400 text-xs md:text-sm mt-2 font-light text-center px-6">Jika gambar belum muncul, sistem sedang mengambilnya dari arsip...</p>
+  </div>
 
   <!-- Modern Floating Navbar (Initially Hidden) -->
   <nav id="landing-navbar"
@@ -42,19 +52,19 @@
 
   <!-- Hero Section with Slider -->
   <section class="relative h-screen w-full flex items-center justify-center overflow-hidden bg-black text-white">
-    <!-- Slider Container -->
-    <div id="hero-slider" class="absolute inset-0 z-0 select-none pointer-events-none">
-      <div class="hero-slide absolute inset-0 bg-cover bg-center transition-opacity duration-1000 ease-out opacity-100 scale-105" style="background-image: url('/assets/hero-img/IMG_1140.webp');"></div>
-      <div class="hero-slide absolute inset-0 bg-cover bg-center transition-opacity duration-1000 ease-out opacity-0 scale-105" style="background-image: url('/assets/hero-img/IMG_1158.webp');"></div>
-      <div class="hero-slide absolute inset-0 bg-cover bg-center transition-opacity duration-1000 ease-out opacity-0 scale-105" style="background-image: url('/assets/hero-img/IMG_1346.webp');"></div>
-      <div class="hero-slide absolute inset-0 bg-cover bg-center transition-opacity duration-1000 ease-out opacity-0 scale-105" style="background-image: url('/assets/hero-img/IMG_6208-5.webp');"></div>
-      <div class="hero-slide absolute inset-0 bg-cover bg-center transition-opacity duration-1000 ease-out opacity-0 scale-105" style="background-image: url('/assets/hero-img/IMG_6415.webp');"></div>
-      <div class="hero-slide absolute inset-0 bg-cover bg-center transition-opacity duration-1000 ease-out opacity-0 scale-105" style="background-image: url('/assets/hero-img/IMG_6433-5.webp');"></div>
-      <div class="hero-slide absolute inset-0 bg-cover bg-center transition-opacity duration-1000 ease-out opacity-0 scale-105" style="background-image: url('/assets/hero-img/IMG_7468.webp');"></div>
-      <div class="hero-slide absolute inset-0 bg-cover bg-center transition-opacity duration-1000 ease-out opacity-0 scale-105" style="background-image: url('/assets/hero-img/IMG_7581.webp');"></div>
-      <div class="hero-slide absolute inset-0 bg-cover bg-center transition-opacity duration-1000 ease-out opacity-0 scale-105" style="background-image: url('/assets/hero-img/IMG_7601.webp');"></div>
-      <div class="hero-slide absolute inset-0 bg-cover bg-center transition-opacity duration-1000 ease-out opacity-0 scale-105" style="background-image: url('/assets/hero-img/IMG_7661.webp');"></div>
-      <div class="hero-slide absolute inset-0 bg-cover bg-center transition-opacity duration-1000 ease-out opacity-0 scale-105" style="background-image: url('/assets/hero-img/IMG_7680.webp');"></div>
+    <!-- Slider Container (Taller than screen to crop bottom watermark) -->
+    <div id="hero-slider" class="absolute top-0 left-0 w-full h-[135vh] z-0 select-none pointer-events-none">
+      <div class="hero-slide absolute inset-0 bg-cover bg-[center_top] transition-opacity duration-1000 ease-out opacity-100 scale-105" style="background-image: url('/assets/hero-img/IMG_1140.webp');"></div>
+      <div class="hero-slide absolute inset-0 bg-cover bg-[center_top] transition-opacity duration-1000 ease-out opacity-0 scale-105" style="background-image: url('/assets/hero-img/IMG_1158.webp');"></div>
+      <div class="hero-slide absolute inset-0 bg-cover bg-[center_top] transition-opacity duration-1000 ease-out opacity-0 scale-105" style="background-image: url('/assets/hero-img/IMG_1346.webp');"></div>
+      <div class="hero-slide absolute inset-0 bg-cover bg-[center_top] transition-opacity duration-1000 ease-out opacity-0 scale-105" style="background-image: url('/assets/hero-img/IMG_6208-5.webp');"></div>
+      <div class="hero-slide absolute inset-0 bg-cover bg-[center_top] transition-opacity duration-1000 ease-out opacity-0 scale-105" style="background-image: url('/assets/hero-img/IMG_6415.webp');"></div>
+      <div class="hero-slide absolute inset-0 bg-cover bg-[center_top] transition-opacity duration-1000 ease-out opacity-0 scale-105" style="background-image: url('/assets/hero-img/IMG_6433-5.webp');"></div>
+      <div class="hero-slide absolute inset-0 bg-cover bg-[center_top] transition-opacity duration-1000 ease-out opacity-0 scale-105" style="background-image: url('/assets/hero-img/IMG_7468.webp');"></div>
+      <div class="hero-slide absolute inset-0 bg-cover bg-[center_top] transition-opacity duration-1000 ease-out opacity-0 scale-105" style="background-image: url('/assets/hero-img/IMG_7581.webp');"></div>
+      <div class="hero-slide absolute inset-0 bg-cover bg-[center_top] transition-opacity duration-1000 ease-out opacity-0 scale-105" style="background-image: url('/assets/hero-img/IMG_7601.webp');"></div>
+      <div class="hero-slide absolute inset-0 bg-cover bg-[center_top] transition-opacity duration-1000 ease-out opacity-0 scale-105" style="background-image: url('/assets/hero-img/IMG_7661.webp');"></div>
+      <div class="hero-slide absolute inset-0 bg-cover bg-[center_top] transition-opacity duration-1000 ease-out opacity-0 scale-105" style="background-image: url('/assets/hero-img/IMG_7680.webp');"></div>
       <div class="absolute inset-0 bg-black/40"></div>
     </div>
 
