@@ -20,7 +20,7 @@ export async function initKelasPage() {
   }
 
   try {
-    const response = await fetch(resolvePath('/data/kelas.json'));
+    const response = await fetch(resolvePath('/data/kelas.json') + '?t=' + Date.now());
     const allData = await response.json();
     const data = allData.find(item => item.id === classId);
 
