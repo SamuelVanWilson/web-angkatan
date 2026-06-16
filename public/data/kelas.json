@@ -176,15 +176,15 @@
         "classMoments": [
             {
                 "title": "Moment 1",
-                "image": ""
+                "image": "/assets/moments/dkv1/IMG-20231122-WA0021.webp"
             },
             {
                 "title": "Moment 2",
-                "image": ""
+                "image": "/assets/moments/dkv1/IMG-20231213-WA0022.webp"
             },
             {
                 "title": "Moment 3",
-                "image": ""
+                "image": "/assets/moments/dkv1/IMG-20240404-WA0037.webp"
             }
         ],
         "lastPhotograph": "/assets/the_last_photo/dkv_1.webp?v=2"
@@ -196,15 +196,15 @@
         "classMoments": [
             {
                 "title": "Moment 1",
-                "image": ""
+                "image": "/assets/moments/dkv2/dkv2_1.webp"
             },
             {
                 "title": "Moment 2",
-                "image": ""
+                "image": "/assets/moments/dkv2/dkv2_2.webp"
             },
             {
                 "title": "Moment 3",
-                "image": ""
+                "image": "/assets/moments/dkv2/dkv2_3.webp"
             }
         ],
         "lastPhotograph": "/assets/the_last_photo/dkv2.webp?v=2"
