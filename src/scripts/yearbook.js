@@ -36,7 +36,7 @@ export async function initYearbook() {
 
         // Fetch ALL yearbook data from the single source of truth
         try {
-            const response = await fetch(resolvePath('/data/yearbook.json'));
+            const response = await fetch(resolvePath('/data/yearbook.json') + '?t=' + Date.now());
             const allYearbooks = await response.json();
 
             let targetData = null;
